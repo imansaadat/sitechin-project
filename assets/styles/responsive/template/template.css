@@ -1,0 +1,116 @@
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1440, 1280, 1024
+  * unit => PX
+  */
+@media (max-width: 1440px) {
+  .page-footer .footer-content {
+    padding-top: 0;
+  }
+}
+@media (max-width: 1280px) {
+  /* Container Full Responsive */
+  .container {
+    min-width: 100%;
+    padding: 0 30px;
+  }
+
+  /* Image Width 100 */
+  .image-col img {
+    max-width: 100%;
+  }
+
+  /* Page Header */
+  .page-header .branding-col .branding {
+    margin-left: 50px;
+  }
+  .page-header .tools-col .account-btn > a .icon-contact {
+    margin-right: 0;
+  }
+  .page-header .tools-col .account-btn > a .label-btn {
+    display: none;
+  }
+
+  /* Responsive All Section Pack */
+  .section-pack .content-box .excerpt-section {
+    font-size: 15px;
+  }
+  .section-pack .content-box .tick-list ul li {
+    font-size: 14px;
+    line-height: 42px;
+  }
+}
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  .page-header {
+    box-shadow: 3px 4px 30px rgba(0, 0, 0, 0.1);
+  }
+  .page-header .header-desk {
+    display: none;
+  }
+  .page-header .header-responsive {
+    display: block;
+  }
+}
+/*
+  * Use => Mobile Screen
+  * Sizes => 540, 414, 375
+  * unit => PX
+  */
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1200px) {
+  .container {
+    min-width: 100%;
+    padding: 0 20px;
+  }
+}
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  .demo-archive-page .filter-form {
+    margin: 0 20px 70px;
+  }
+  .demo-archive-page .filter-form .field-block {
+    margin-bottom: 20px !important;
+  }
+}
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .demo-archive-page .demo-list .demo-items .item-inner .demo-info .call-to-action .demo-btn .btn-inner {
+    font-size: 12px !important;
+  }
+  .demo-archive-page .filter-block .filter-form .field-block label {
+    margin-bottom: 7px;
+  }
+}
+@media (max-width: 414px) {
+  .demo-archive-page .pagination-default ul {
+    font-size: 10px;
+  }
+  .demo-archive-page .pagination-default ul li {
+    height: 28px;
+    line-height: 28px;
+  }
+  .demo-archive-page .pagination-default ul li a {
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  .demo-archive-page .pagination-default ul li.active-page {
+    padding: 0 10px !important;
+  }
+}/*# sourceMappingURL=template.css.map */

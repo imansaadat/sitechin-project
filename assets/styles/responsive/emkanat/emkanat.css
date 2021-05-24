@@ -1,0 +1,83 @@
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1440, 1280, 1024
+  * unit => PX
+  */
+@media (max-width: 1440px) {
+  .page-footer .footer-content {
+    padding-top: 0;
+  }
+}
+@media (max-width: 1280px) {
+  /* Container Full Responsive */
+  .container {
+    min-width: 100%;
+    padding: 0 30px;
+  }
+
+  /* Image Width 100 */
+  .image-col img {
+    max-width: 100%;
+  }
+
+  /* Page Header */
+  .page-header .branding-col .branding {
+    margin-left: 50px;
+  }
+  .page-header .tools-col .account-btn > a .icon-contact {
+    margin-right: 0;
+  }
+  .page-header .tools-col .account-btn > a .label-btn {
+    display: none;
+  }
+
+  /* Responsive All Section Pack */
+  .section-pack .content-box .excerpt-section {
+    font-size: 15px;
+  }
+  .section-pack .content-box .tick-list ul li {
+    font-size: 14px;
+    line-height: 42px;
+  }
+}
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  .page-header {
+    box-shadow: 3px 4px 30px rgba(0, 0, 0, 0.1);
+  }
+  .page-header .header-desk {
+    display: none;
+  }
+  .page-header .header-responsive {
+    display: block;
+  }
+}
+/*
+  * Use => Mobile Screen
+  * Sizes => 540, 414, 375
+  * unit => PX
+  */
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 767px) {
+  body.facilities {
+    /* access section */
+  }
+}
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  *//*# sourceMappingURL=emkanat.css.map */

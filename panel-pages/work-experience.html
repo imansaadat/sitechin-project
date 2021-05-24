@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>پنل کاربری</title>
+    <link rel="stylesheet" href="../assets/styles/pages/base/style.min.css">
+    <link rel="stylesheet" href="../assets/styles/pages/panel/panel-page-style.min.css">
+    <!-- Scripts Library -->
+    <script src="../assets/js/theme-libs.min.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</head>
+
+<body class="panel-body">
+<!-- Page Header -->
+<header class="page-header">
+    <div class="container">
+        <div class="row align-items-center no-gutters">
+            <div class="col-10 branding-col">
+                <div class="branding">
+                    <a href="http://dev.sitechin.com"><img src="../assets/images/base/sitechin.svg" alt="سایتچین"></a>
+                </div>
+
+                <nav class="main-navigation">
+                    <ul>
+                        <li class="menu-item-has-children"><a href="#">خدمات</a>
+                            <ul>
+                                <li class="menu-item-has-children"><a href="#">خدمات سایتجین</a>
+                                    <ul>
+                                        <li><a href="#">سایت ساز</a></li>
+                                        <li><a href="#">فروشگاه ساز</a></li>
+                                        <li><a href="#">مجله ساز</a></li>
+                                        <li><a href="#">صفحه فرود ساز</a></li>
+                                        <li><a href="#">رزومه ساز</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">امکانات سایتجین</a>
+                                    <ul>
+                                        <li><a href="#">ویژگی های سایتچین</a></li>
+                                        <li><a href="#">افزونه ها و ماژول ها</a></li>
+                                        <li><a href="#">بروزرسانی ها</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">مشتریان سایتچین</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">آموزش</a>
+                            <ul>
+                                <li><a href="#">مرکز آموزش</a></li>
+                                <li><a href="#">سوالات متداول</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://dev.sitechin.com/package">پکیج ها</a></li>
+                        <li><a href="http://dev.sitechin.com/product/archive">قالب ها</a></li>
+                        <li><a href="#">وبلاگ</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="http://dev.sitechin.com/contact-us">تماس با ما</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-2 tools-col left">
+                <div class="tools-header">
+                    <div class="account-btn">
+                        <a href="http://dev.sitechin.com/login"><span class="icon-contact"></span><span
+                                class="label-btn">ورود/ثبت نام</span></a>
+                    </div>
+                    <div class="search-btn">
+                        <span class="icon-search search-fn"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="panel-page">
+
+    <div class="panel-row">
+        <div class="sidebar-panel">
+            <div class="user-profile-section">
+                <div class="row align-items-center no-gutters">
+                    <div class="col-3 image-col">
+                        <img id="avatar-side" src="../assets/images/base/auth/profile-avatar-small.jpeg" alt="">
+                    </div>
+                    <div class="col-9 user-info">
+                        <div class="user-name">ایمان سعادت</div>
+                        <div class="profile-edit-menu light-mode">
+                            <ul class="center">
+                                <li>
+                                    <div class="default-text">پروفایل کاربری</div>
+                                    <ul>
+                                        <li><a href="#">ویرایش پروفایل</a></li>
+                                        <li><a href="#">تنظیمات امنیتی</a></li>
+                                        <li><a href="#">خروج از حساب</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-navigation">
+                <ul>
+                    <li>
+                        <a href="#"><i class="icon-dashboard"></i>پیشخوان</a>
+                    </li>
+                    <li class="item-has-children">
+                        <div class="first-text"><i class="icon-cubes-stack"></i>سرویس ها</div>
+                        <ul>
+                            <li>
+                                <a href="#">مشاهده لیست سرویس ها</a></li>
+                            <li><a href="#">ثبت سرویس جدید</a></li>
+                        </ul>
+                    </li>
+                    <li class="item-has-children">
+                        <div class="first-text">
+                            <i style="font-size: 12px" class="icon-text-file-square-filled-button"></i>درخواست ها
+                        </div>
+                        <ul>
+                            <li><a href="#">مشاهده لیست درخواست ها</a></li>
+                            <li><a href="#">ثبت درخواست جدید</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-credit-or-debit-card"></i>صورت حساب ها</a></li>
+                    <li><a href="#"><i class="icon-valet"></i>کیف پول</a></li>
+                    <li><a href="#"><i class="icon-discount"></i>بانک هدایا</a></li>
+                    <li>
+                        <a href="#"><i class="icon-alert notification-icon-is-shake"></i>اعلانات<span
+                                class="count num-fa light-mode">3</span></a>
+                    </li>
+                    <li><a href="#"><i class="icon-graduation-cap"></i>مرکز آموزش</a></li>
+                    <li class="item-has-children">
+                        <div class="first-text"><i class="icon-help"></i>پشتیبانی</div>
+                        <ul>
+                            <li>
+                                <a href="#">مشاهده لیست تیکت ها</a>
+                            </li>
+                            <li>
+                                <a href="#">ارسال تیکت جدید</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="content-panel wallet-page">
+            <div class="overview widget-block">
+                <div class="row align-items-center">
+                    <div class="col-5 breadcrumb-panel">
+                        <ul>
+                            <li><a href="#">حساب کاربری</a></li>
+                            <li><span>پیشخوان</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 left">
+                        <div class="valet-block">
+
+                            <a href="#"><span class="icon-plus"></span></a> <a href="#"><span class="value num-fa">موجودی کیف پول: <span
+                                class="price">570,000</span> تومان<i class="icon-valet"></i></span></a>
+
+                        </div>
+
+                        <a href="#" class="notification-block">
+                            <div class="notification-count num-fa">3 پیام جدید</div>
+                            <div class="notification-icon notification-icon-is-shake"><i class="icon-alert"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- work experience  -->
+            <div class="work-experience-section">
+                <div class="block-experience">
+                    <div class="widget-heading">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item previous">
+                                <a class="nav-link previous" data-toggle="tab" href="#previous">قبلی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#choice-template">انتخاب قالب</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#base-information">اطلااعات پایه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#work-experience">سوابق شعلی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#education-experience">سوابق تحصیلی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#skills">مهارت ها</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#projects">پروژه ها</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#get-resume">دریافت رزومه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link next" data-toggle="tab" href="#next">ادامه</a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div id="previous" class="tab-pane previous fade"><br>
+
+                            </div>
+                            <div id="choice-template" class="tab-pane active fade">
+
+
+                            </div>
+                            <div id="base-information" class="container tab-pane fade"><br>
+
+                            </div>
+                            <div id="education-experience" class="container tab-pane fade"><br>
+
+                            </div>
+                            <div id="skills" class="container tab-pane fade"><br>
+
+                            </div>
+                            <div id="projects" class="container tab-pane fade"><br>
+
+                            </div>
+                            <div id="get-resume" class="container tab-pane fade"><br>
+
+                            </div>
+                            <div id="next" class="container tab-pane next fade"><br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-title">
+                        <div class="t-title">سوابق شغلی</div>
+                    </div>
+                    <div class="filter-block">
+                        <div class="filter-form">
+                            <form>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="field-block">
+                                            <label class="field-label" for="company-name">نام شرکت</label>
+                                            <input type="text" id="company-name" class="field-input" name="company-name"
+                                                   placeholder="شرکت دیجیتال مارکتینگ نگاه نو">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="field-block">
+                                            <label class="field-label" for="job-title">عنوان شغلی</label>
+                                            <input type="text" id="job-title" class="field-input" name="job-title"
+                                                   placeholder="طراح رابط و تجربه کاربری">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="field-block">
+                                            <label class="field-label" for="leave-job">علت ترک شغل</label>
+                                            <input type="text" id="leave-job" class="field-input" name="leave-job"
+                                                   placeholder="عدم وجود مزایا">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="field-block">
+                                            <label for="type-cooperation" class="field-label">نوع همکاری</label> <select
+                                                id="type-cooperation"
+                                                name="type-cooperation">
+                                            <option value="">تمام وقت</option>
+                                            <option value="">پاره وقت</option>
+                                            <option value="">دورکاری</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="inline-double-select-field">
+                                            <label for="from-date" class="field-label">از تاریخ</label>
+                                            <div class="row no-gutters select-field-inner">
+                                                <div class="col">
+                                                    <select id="from-date" name="from-date" class="from-date">
+                                                        <option value="فروردین">فروردین</option>
+                                                        <option value="اردیبهشت">اردیبهشت</option>
+                                                        <option value="خرداد">خرداد</option>
+                                                        <option value="تیر">تیر</option>
+                                                        <option value="مرداد">مرداد</option>
+                                                        <option value="شهریور">شهریور</option>
+                                                        <option value="مهر">مهر</option>
+                                                        <option value="آبان">آبان</option>
+                                                        <option value="آذر">آذر</option>
+                                                        <option value="دی">دی</option>
+                                                        <option value="بهمن">بهمن</option>
+                                                        <option value="اسفند">اسفند</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="from-years num-fa">
+                                                        <input type="text" id="from-years" class="field-input" name="from-years"
+                                                               placeholder="1379">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="inline-double-select-field">
+                                            <label for="to-date" class="field-label">تا تاریخ</label>
+                                            <div class="row no-gutters select-field-inner">
+                                                <div class="col">
+                                                    <select id="to-date" name="to-date" class="to-date">
+                                                        <option value="فروردین">فروردین</option>
+                                                        <option value="اردیبهشت">اردیبهشت</option>
+                                                        <option value="خرداد">خرداد</option>
+                                                        <option value="تیر">تیر</option>
+                                                        <option value="مرداد">مرداد</option>
+                                                        <option value="شهریور">شهریور</option>
+                                                        <option value="مهر">مهر</option>
+                                                        <option value="آبان">آبان</option>
+                                                        <option value="آذر">آذر</option>
+                                                        <option value="دی">دی</option>
+                                                        <option value="بهمن">بهمن</option>
+                                                        <option value="اسفند">اسفند</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="to-years num-fa">
+                                                        <input type="text" id="to-years" class="field-input" name="to-years"
+                                                               placeholder="1379">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="field-block">
+                                            <input type="radio" value="مشغول به کار هستم" id="job-situation" >
+                                            <label for="job-situation" class="job-situation">مشغول به کار هستم</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="field-block activity">
+                                            <label for="activities" class="activities">خلاصه فعالیت ها</label>
+                                            <input type="text" id="activities" class="activity">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                       <div class="field-block add-more">
+                                           <div class="add-more-text center">افزودن موارد بیشتر</div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- work experience baner -->
+            <div class="work-experience-banner">
+                <div class="image-col">
+                    <img src="../assets/images/base/panel/choice-template/banner-resume.png" alt="انتخاب قالب">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+<!-- Search Modal -->
+<div class="modal-search">
+    <div class="search-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="search-form">
+            <input class="search-field" type="text"
+                   placeholder="برای جستجو، کلمه کلیدی مورد نظر خود را وارد نمایید...">
+            <div class="submit-form">
+                <input type="submit" value="" class="search-submit">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function CopyCode() {
+        /* Get the text field */
+        var copyText = document.getElementById("discount-code");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+    }
+
+    $(document).ready(function () {
+        $('.item-has-children > .first-text').click(function () {
+            $('.show-submenu > ul').hide(200);
+            $('.show-submenu').removeClass('show-submenu');
+
+            $(this).parent().addClass('show-submenu');
+            $(this).next().show(200);
+        });
+    });
+
+</script>
+
+</body>
+</html>

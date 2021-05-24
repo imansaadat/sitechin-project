@@ -1,0 +1,2272 @@
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>آرشیو قالب ها |&zwnj; سایتچین</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#06826a">
+    <link rel="shortcut icon" type="image/x-icon" href="http://sitechin.com/resources/views/layouts/favicon.svg">
+    <link href="assets/styles/pages/base/style.min.css" type="text/css" rel="stylesheet">
+    <link href="assets/styles/responsive/template/template.css" type="text/css" rel="stylesheet">
+    <link href="assets/styles/pages/archive/demo-archive-style.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Scripts Library -->
+    <script src="assets/js/theme-libs.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+</head>
+<body class="index-body">
+<!-- Page Header -->
+<header class="page-header">
+    <div class="container">
+        <div class="header-desk">
+            <div class="row align-items-center no-gutters">
+                <div class="col-10 branding-col">
+                    <div class="branding">
+                        <a href="http://sitechin.com"><img
+                                src="assets/images/base/sitechin.svg"
+                                alt="سایتچین"></a>
+                    </div>
+
+                    <nav class="main-navigation">
+                        <ul>
+                            <li class="menu-item-has-children"><a href="http://sitechin.com/services">خدمات</a>
+                                <ul>
+                                    <li><a href="http://sitechin.com/website-builder">سایت ساز</a></li>
+                                    <li><a href="http://sitechin.com/shop-builder">فروشگاه ساز</a></li>
+                                    <li><a href="http://sitechin.com/magazine-builder">مجله ساز</a></li>
+                                    <li><a href="http://sitechin.com/landing-page-builder">صفحه فرود ساز</a></li>
+
+                                </ul>
+                            </li>
+
+
+                            <li><a href="http://sitechin.com/package">پکیج ها</a></li>
+                            <li><a href="http://sitechin.com/product/archive">قالب ها</a></li>
+                            <li><a target="_blank" href="http://sitechin.com/blog">وبلاگ</a></li>
+
+                            <li><a href="http://sitechin.com/about-us">درباره ما</a></li>
+                            <li><a href="http://sitechin.com/contact-us">تماس با ما</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2 tools-col left">
+                    <div class="tools-header">
+                        <div class="account-btn">
+                            <a href="#"><span class="icon-contact"></span><span class="label-btn">حساب کاربری</span></a>
+                            <ul class="light-mode center">
+                                <li><a href="http://sitechin.com/panel"><span class="label-btn">پنل کاربری</span></a>
+                                </li>
+                                <li><a href="http://sitechin.com/logout"><span class="label-btn">خروج از حساب</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-btn" onclick="show_modal('modal-search')">
+                            <span class="icon-search search-fn"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-responsive">
+            <div class="row">
+                <div class="col-6 branding-col">
+                    <div class="branding">
+                        <a href="http://sitechin.com"><img
+                                src="http://sitechin.com/storage/app/reseller/logo/full/jO0AHYn94JrSzlbYGasrL3pRdjjjr2BrdPQP8IYT.svg"
+                                alt="سایتچین"></a>
+                    </div>
+                </div>
+                <div class="col-6 left">
+                    <div class="toggle-canvas tools-col">
+                        <div class="tool-btn" onclick="show_modal('canvas-navigation')"><span class="icon-bar"></span>
+                        </div>
+                        <div class="tool-btn"><span class="icon-contact"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="layout">
+
+    <!-- Main Page -->
+    <main class="demo-archive-page index-main-page">
+        <div class="container">
+            <!-- Page Heading -->
+            <div class="page-heading center">قالب ها</div>
+
+            <!-- Filter Block -->
+            <div class="filter-block">
+                <div class="filter-form">
+                    <form method="GET" action="#" accept-charset="UTF-8">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="field-block">
+                                    <label for="categories">دسته بندی</label> <select id="categories"
+                                                                                      name="product_cat">
+                                    <option value="">همه دسته بندی ها</option>
+                                    <option value="sitesaz">وب سایت</option>
+                                    <option value="shop">فروشگاه</option>
+                                    <option value="magazine">مجله ای</option>
+                                    <option value="landing">صفحه فرود</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="field-block">
+                                    <label for="type">نوع کاربرد</label> <select id="type" name="product_usage">
+                                    <option value="">همه کاربردها</option>
+                                    <option value="cooking">آشپزی</option>
+                                    <option value="clean-service">سرویس تمیزاری</option>
+                                    <option value="vekalat">وکالت</option>
+                                    <option value="application">اپلیکیشن</option>
+                                    <option value="portfolio">پورتفولیو</option>
+                                    <option value="estate">املاک</option>
+                                    <option value="startup">استارت آپ</option>
+                                    <option value="cosmetic">آرایشی بهداشتی</option>
+                                    <option value="advertising-agency">آژانس تبلیغاتی</option>
+                                    <option value="commercial">تجاری</option>
+                                    <option value="tour-and-tourism">تور و گردشگری</option>
+                                    <option value="industrial-services">خدمات صنعتی</option>
+                                    <option value="company">شرکتی</option>
+                                    <option value="medical">پزشکی</option>
+                                    <option value="restaurant">رستوران</option>
+                                    <option value="construction">ساخت و ساز</option>
+                                    <option value="beauty-salon">سالن زیبایی</option>
+                                    <option value="web-design">طراحی وب</option>
+                                    <option value="technical">فنی</option>
+                                    <option value="engineering">مهندسی</option>
+                                    <option value="coffee-shop">کافی شاپ</option>
+                                    <option value="conference">همایش</option>
+                                    <option value="software">نرم افزار</option>
+                                    <option value="digital-marketing">دیجیتال مارکتینگ</option>
+                                    <option value="building-materials">مصالح ساختمانی</option>
+                                    <option value="clothing">پوشاک و لباس</option>
+                                    <option value="coffee">قهوه</option>
+                                    <option value="book">کتاب</option>
+                                    <option value="dress">لباس</option>
+                                    <option value="fruit">میوه</option>
+                                    <option value="bags-and-shoes">کیف و کفش</option>
+                                    <option value="medical-equipment">لوازم پزشکی</option>
+                                    <option value="games-and-software">بازی و نرم افزار</option>
+                                    <option value="news">خبری</option>
+                                    <option value="mode-and-fashion">مد و فشن</option>
+                                    <option value="encyclopedia">دانشنامه</option>
+                                    <option value="sports">ورزشی</option>
+                                    <option value="digital">دیجیتال</option>
+                                    <option value="technology">فناوری</option>
+                                    <option value="technology-blog">تکنولوژی</option>
+                                    <option value="gym">ورزشی</option>
+                                    <option value="application-landing">اپلیکیشن</option>
+                                    <option value="digital-marketing-landing">دیجیتال مارکتینگ</option>
+                                    <option value="software-landing">نرم افزار</option>
+                                    <option value="product-introduce-landing">معرفی محصول</option>
+                                    <option value="company-introduce-landing">معرفی شرکت</option>
+                                    <option value="event-introduce-landing">معرفی همایش</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="field-block">
+                                    <label for="feature">ویژگی ها</label> <select id="feature" name="product_indicator">
+                                    <option value="">همه ویژگی ها</option>
+                                    <option value="1-colum">قالب یک ستونه</option>
+                                    <option value="2-column">قالب دو ستونه</option>
+                                    <option value="3-column">قالب سه ستونه</option>
+                                    <option value="minimal-design">طراحی مینیمال</option>
+                                    <option value="flat">فلت</option>
+                                    <option value="modern">مدرن</option>
+                                    <option value="special">خاص</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="field-block">
+                                    <label for="search">جست و جو</label>
+                                    <input id="search" name="search" type="text" class="search-key-word"
+                                           placeholder="نام قالب را وارد نمایید">
+                                    <input name="submit_demo_filter" type="submit" value="جست و جو"
+                                           class="search-submit">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Demo List -->
+            <div class="demo-list">
+                <div class="container">
+                    <div class="demo-items">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-طراحی-سایت-زیتون">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/SDAdLudvThZhn74H4RPi88lNyu10fkskb7erMwBk.jpeg"
+                                                 alt="قالب طراحی سایت زیتون">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-طراحی-سایت-زیتون">
+                                                <span class="icon-arrow-left"></span>قالب طراحی سایت زیتون
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://foton-saas-home.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-106">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-شرکتی-ترنج-زیبا">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/b7RL7aPF0ZrjTrSXOSWwoU2ELiD69DVXoJSrKSnd.jpeg"
+                                                 alt="قالب شرکتی ترنج زیبا">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-شرکتی-ترنج-زیبا">
+                                                <span class="icon-arrow-left"></span>قالب شرکتی ترنج زیبا
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://isoft-product-homepage.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-105">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-شرکت-طراحی-وب-آریسان">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/9oyC14HE7z8YullNEfhdCjxgnt1wcwvu2yj4Fsli.jpeg"
+                                                 alt="قالب شرکت طراحی وب آریسان">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-شرکت-طراحی-وب-آریسان">
+                                                <span class="icon-arrow-left"></span>قالب شرکت طراحی وب آریسان
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://saasland.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-104">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-شرکت-تبلیغات-کلیکی-آریا-ادز">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/wq8UsUJC3d4YpUg2Nk5e40VCSu0xwF6HlOQ4SO67.jpeg"
+                                                 alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-شرکت-تبلیغات-کلیکی-آریا-ادز">
+                                                <span class="icon-arrow-left"></span>قالب شرکت تبلیغات کلیکی آریا ادز
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner"
+                                                   href="http://saasland-home-software-dark.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-103">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-اپلیکیشن-باشگاه-مشتریان-روژا">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/LoUISjgS6MOxecHrr7pcCDhzXRIvxsyK5bHHrTAz.jpeg"
+                                                 alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-اپلیکیشن-باشگاه-مشتریان-روژا">
+                                                <span class="icon-arrow-left"></span>قالب اپلیکیشن باشگاه مشتریان روژا
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://saasland-home-mail.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-102">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-دنیای-فناوری">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/cfMzuE2zEMwdIr71vUJxfsOZl9SLTnOdUJnMib8d.jpeg"
+                                                 alt="قالب دنیای فناوری">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-دنیای-فناوری">
+                                                <span class="icon-arrow-left"></span>قالب دنیای فناوری
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://topnews-home-featured.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-101">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-دانشنامه-ورزشی">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/NlAECR7XTpPmExobSfu86t7WTpL2dshFsSHwn9Av.jpeg"
+                                                 alt="قالب دانشنامه ورزشی">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-دانشنامه-ورزشی">
+                                                <span class="icon-arrow-left"></span>قالب دانشنامه ورزشی
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://topnews-sport.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-100">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-دانشنامه-گردشگری">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/6rCiz1H8rs3rqlVSMAzqhH8NaDfyiL2R4IHkaRSk.jpeg"
+                                                 alt="قالب دانشنامه گردشگری">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-دانشنامه-گردشگری">
+                                                <span class="icon-arrow-left"></span>قالب دانشنامه گردشگری
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://impreza-05.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-99">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-خبری-ماهور">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/PGXUlGmOHw5kU8ksKd4ugrm36RQdf8VmuPmT5A73.jpeg"
+                                                 alt="قالب خبری ماهور">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-خبری-ماهور">
+                                                <span class="icon-arrow-left"></span>قالب خبری ماهور
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://topnews-main.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-98">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-خبری-فشن">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/FQQDvk1z5QvIENeoSHlGpMLVj2wLRxLXuWsDzkBy.jpeg"
+                                                 alt="قالب خبری فشن">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-خبری-فشن">
+                                                <span class="icon-arrow-left"></span>قالب خبری فشن
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://topnews-fashion.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-97">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-خبری-تحلیلی-سری-دوم">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/s840UWTy2X1v49FRO88hEFqE1FzeNLjUkRIgW4kd.jpeg"
+                                                 alt="قالب خبری تحلیلی سری دوم">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-خبری-تحلیلی-سری-دوم">
+                                                <span class="icon-arrow-left"></span>قالب خبری تحلیلی سری دوم
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://forceful-light.sitechin.com/"
+                                                   target="_blank">پیش نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-96">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 item-block">
+                                <div class="item-inner">
+                                    <div class="thumbnail-demo">
+                                        <a href="http://sitechin.com/product/قالب-خبری-تحلیلی">
+                                            <img src="http://sitechin.com/storage/app/product/thumbnail/470/CMwsCCDf4zrPTnK0xCp2N9VqdFo9sIxmYep7b5GN.jpeg"
+                                                 alt="قالب خبری تحلیلی">
+                                        </a>
+                                    </div>
+                                    <div class="demo-info">
+                                        <div class="demo-title">
+                                            <a href="http://sitechin.com/product/قالب-خبری-تحلیلی">
+                                                <span class="icon-arrow-left"></span>قالب خبری تحلیلی
+                                            </a>
+                                        </div>
+                                        <div class="call-to-action light-mode">
+                                            <div class="demo-btn show-demo">
+                                                <a class="btn-inner" href="http://hueman.sitechin.com/" target="_blank">پیش
+                                                    نمایش</a>
+                                            </div>
+                                            <div class="demo-btn install-demo">
+                                                <div class="btn-inner" id="demo-install-95">نصب قالب</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="center num-fa" style="padding-bottom: 20px">
+                        <nav class="pagination-default">
+                            <ul>
+
+                                <li class="disabled" aria-disabled="true" aria-label="« Previous">
+                                    <span aria-hidden="true" class="page-arrow icon-arrow-right-linear"></span>
+                                </li>
+
+
+                                <li class="active-page" aria-current="page"><span>1</span></li>
+                                <li><a href="http://sitechin.com/product/archive?page=2">2</a></li>
+                                <li><a href="http://sitechin.com/product/archive?page=3">3</a></li>
+                                <li><a href="http://sitechin.com/product/archive?page=4">4</a></li>
+                                <li><a href="http://sitechin.com/product/archive?page=5">5</a></li>
+                                <li><a href="http://sitechin.com/product/archive?page=6">6</a></li>
+                                <li><a href="http://sitechin.com/product/archive?page=7">7</a></li>
+                                <li><a href="http://sitechin.com/product/archive?page=8">8</a></li>
+                                <li><a href="http://sitechin.com/product/archive?page=9">9</a></li>
+
+
+                                <li>
+                                    <a href="http://sitechin.com/product/archive?page=2" rel="next" aria-label="Next »"
+                                       class="page-arrow icon-arrow-left-linear"></a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-12 about-us-col">
+                        <div class="about-us-inner">
+                            <a href="http://sitechin.com" class="branding-footer"><img
+                                    src="http://sitechin.com/storage/app/reseller/logo/full/jO0AHYn94JrSzlbYGasrL3pRdjjjr2BrdPQP8IYT.svg"
+                                    alt="سایتچین"></a>
+                            <p class="about-text">ما در سایتچین ، امکان راه اندازی یک وب سایت زیبا و کار آمد برای همه
+                                افراد را فراهم کرده ایم .
+                                <br>از طریق سایتچین می توانید صاحب یک فروشگاه اینترنتی شوید ، گالری از نمونه کارهای هنری
+                                خود بسازید و یا خدمات خود را معرفی کنید و فقط به توسعه کسب و کار خود بیندیشید.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-5 col-md-6 col-sm-12 quick-link-col">
+                        <div class="footer-heading">دسترسی سریع</div>
+                        <div class="quick-link-footer">
+                            <ul>
+                                <li><a href="http://sitechin.com">صفحه اصلی</a></li>
+                                <li><a href="http://sitechin.com/product/archive">آرشیو قالب ها</a></li>
+                                <li><a href="http://sitechin.com/services">امکانات سایتچین</a></li>
+
+
+                                <li><a href="http://sitechin.com/package">پکیج ها</a></li>
+                                <li><a href="http://sitechin.com/website-builder">سایت ساز</a></li>
+                                <li><a href="http://sitechin.com/shop-builder">فروشگاه ساز</a></li>
+
+
+                                <li><a href="#">قوانین و مقررات</a></li>
+
+                                <li><a href="http://sitechin.com/about-us">درباره ما</a></li>
+                                <li><a href="http://sitechin.com/contact-us">تماس با ما</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12col-md-6 col-sm-12 contact-col">
+                        <div class="footer-heading">خبرنامه</div>
+                        <div class="newsletter-form">
+                            <form>
+                                <input type="text" class="field-form" placeholder="آدرس ایمیل">
+                                <input type="text" class="field-form" placeholder="شماره موبایل">
+                                <div class="field-block-submit">
+                                    <input type="submit" value=""> <span>عضویت در خبرنامه</span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="sitechin-social">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12social-title">مارا همراهی کنید</div>
+                                <div class="col-8 social-list left">
+                                    <a href="https://www.instagram.com/sitechingroup/"
+                                       class="social-item icon-instagram"></a>
+                                    <a href="https://www.aparat.com/sitechingroup/" class="social-item icon-aparat"
+                                       style="font-size: 13px"></a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row align-items-center">
+                    <div class="col-6">تمامی حقوق این وب سایت متعلق به سایتچین می باشد.</div>
+                    <div class="col-6 left">Copyright © 2020 All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-pattern">
+
+        </div>
+    </footer>
+</div>
+
+<!-- Search Install Demo -->
+<div class="modal-demo" id="modal-demo-106">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-106"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="5" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/UFPLMD06tA5MljF2l6HSUXxuX91WEumXxPkPpGsQ.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/MwfOX6lEpry6qKhBUVETJSNKXUZtlkHuYyhNteAL.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/sbTqEZnn5OEPvXv0T7ZTpz3CehAeDiIaZ0ePJogi.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/feyOfGj8oqzYtUMn13RjztwPZrNVu3cBYYVwX8RE.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/krYouzGrMQXOXWPHsgAj5ki1nzjlkwC6fMWVALT4.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/YMzwwDsaP5ziVafsGQNY5Trof9ybSNVD3iJksQFt.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="5"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/UFPLMD06tA5MljF2l6HSUXxuX91WEumXxPkPpGsQ.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/MwfOX6lEpry6qKhBUVETJSNKXUZtlkHuYyhNteAL.jpeg"
+                                         alt="قالب طراحی سایت زیتون">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب طراحی سایت زیتون</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: نرم افزار</div>
+                                <div class="info-item num-fa">کد قالب: 155749</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>قابلیت گذاشتن محصول در سایت</li>
+
+                                <li>دارای گالری نمونه کار ها</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                                <li>سازگاری کامل با چندزبانه بودن سایت</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=106&amp;package_cat=landing">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-طراحی-سایت-زیتون">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank"
+                                       href="http://foton-saas-home.sitechin.com/"><span class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-106').click(function () {
+            $('#modal-demo-106').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-106', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-105">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-105"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="7" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/CWM6QEpD2Y96qr1pKsMpAw9OLQSBOGbM8utFX55g.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/zCyN3N2c4b0AbZaRBJaKKdC9WnyHIwVFGwCNXOlw.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/VBqPi1ghvdlMhhlbw6WFxyUvZ8iUAOUTjEkxmIOZ.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/zo9NG96xtn3Gr55zfmkhKkfoRYCgPcvLQN38a8zy.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/SJHVrjkHBSmZ4jSj1LpFMOteqDkYwycLDUtfLcP2.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/PlBoUO2Slk4FEEau2nhGePaqyGsgWawhEG2g1vuC.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="5" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/eHZe3eZLjzkCUYZ16o0sbodDySf6DFKLU09xWvSc.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="6" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/SgGiDZfgPo57Sob21z0kMuhvoeACTWQUJ1oFe9Yy.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="7"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/CWM6QEpD2Y96qr1pKsMpAw9OLQSBOGbM8utFX55g.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/zCyN3N2c4b0AbZaRBJaKKdC9WnyHIwVFGwCNXOlw.jpeg"
+                                         alt="قالب شرکتی ترنج زیبا">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب شرکتی ترنج زیبا</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: نرم افزار</div>
+                                <div class="info-item num-fa">کد قالب: 598416</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>پشتیبانی از سایدبار های چپ و راست</li>
+
+                                <li>پشتیبانی از قالب کودک</li>
+
+                                <li>قابل استفاده در سایت های فروشگاهی</li>
+
+                                <li>محصول محور</li>
+
+                                <li>صفحه ۴۰۴ اختصاصی و قابل ویرایش</li>
+
+                                <li>امکان درون ریزی و برون بری تنظیمات قالب</li>
+
+                                <li>سازگار با انواع مرورگرهای معروف دنیا</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=105&amp;package_cat=landing">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-شرکتی-ترنج-زیبا">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank"
+                                       href="http://isoft-product-homepage.sitechin.com/"><span class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-105').click(function () {
+            $('#modal-demo-105').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-105', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-104">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-104"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="5" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/S5gYnOZCWmLyzMC6ahSb2FUL5vFa3ghedWjqWbW3.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/MS4HEbPxV1Sjpw7dtpW71NVVdiOP3azKhBKx8I4i.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/0hBgu2CfnpcpGVBBA2IfliwMklp31zulndatVnSc.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/5kKjqnYAvZm90PlAJIWlhA2SmoEWTyptjFvxjXSQ.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/MsyOP1Z2PL2dQaX1ASmZeno1HxCbhLmCdYsZnX61.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/EaJV6P7og7bXmmhTI0iqEl8cqrgJ3qkXFH3Tcz6S.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="5"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/S5gYnOZCWmLyzMC6ahSb2FUL5vFa3ghedWjqWbW3.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/MS4HEbPxV1Sjpw7dtpW71NVVdiOP3azKhBKx8I4i.jpeg"
+                                         alt="قالب شرکت طراحی وب آریسان">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب شرکت طراحی وب آریسان</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: دیجیتال مارکتینگ</div>
+                                <div class="info-item num-fa">کد قالب: 476715</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>امکان قرار دادن نمونه کار ها</li>
+
+                                <li>دارای قسمت بلاگ و مطالب</li>
+
+                                <li>دارای بخش فروشگاه و محصول محور</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=104&amp;package_cat=landing">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-شرکت-طراحی-وب-آریسان">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank" href="http://saasland.sitechin.com/"><span
+                                            class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-104').click(function () {
+            $('#modal-demo-104').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-104', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-103">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-103"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="6" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/dPGGLfYnqtN1B3UhoWeFIwOWARjomLqdF545VVYE.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/nqvwt6bIFn0xfzgWjXCinObshjLvYTPDCCa6Rf5k.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/5buRYo68NWrCpl2V3nMBOEJKqFchPqSULg0jlcva.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/VMSzpeNDWMmRyttNC29kNfph7sRtSKGP6KSY6pNb.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/hEzhjNq8Frf3ufo72Vjn9LjYmDQd8g60J6lpUX93.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/chZGqtBwxXqWu2XAOq5UhbUeHxhBR8EUGPjPrlmx.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="5" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/ZXnPb2WL1CvyX44XRVKkqsKd7TdnwsFq04nh68fD.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="6"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/dPGGLfYnqtN1B3UhoWeFIwOWARjomLqdF545VVYE.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/nqvwt6bIFn0xfzgWjXCinObshjLvYTPDCCa6Rf5k.jpeg"
+                                         alt="قالب شرکت تبلیغات کلیکی آریا ادز">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب شرکت تبلیغات کلیکی آریا ادز</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: نرم افزار</div>
+                                <div class="info-item num-fa">کد قالب: 199944</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>امکان قرار دادن نمونه کار ها</li>
+
+                                <li>دارای قسمت بلاگ و مطالب</li>
+
+                                <li>دارای بخش فروشگاه و محصول محور</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=103&amp;package_cat=landing">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-شرکت-تبلیغات-کلیکی-آریا-ادز">اطلاعات
+                                        قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank"
+                                       href="http://saasland-home-software-dark.sitechin.com/"><span
+                                            class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-103').click(function () {
+            $('#modal-demo-103').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-103', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-102">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-102"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="7" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/vjnZkEH98lzc9x0EVyviKo8P9exFDGXz6OWLURuk.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/afNxvG2ajqgFja2PknjddFSUJDpRMM8C0qD9rLkb.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/fDDtYLfnI5q8sUBI2kNR8rSz86QBUGbSee6bo4Nk.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/SQE29Jkq5HS17HVbGLnUEnpHETJthpE2vRlDAWKk.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/60RGPszFqF3ypI73vdrW7b4f7iB604iZ4qwBOCiF.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/IwIVtGJ5ysgwqngjIxujfIcOlrGk09dIdP9ldsxI.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="5" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/6EbhtwLhEMUQHmzNrmObZgujXSUlvlUuS8mJAAL7.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="6" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/cCRDDyBTCVgRf6mR9d2C4UVuXsEFuo6F48ZryB7G.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="7"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/vjnZkEH98lzc9x0EVyviKo8P9exFDGXz6OWLURuk.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/afNxvG2ajqgFja2PknjddFSUJDpRMM8C0qD9rLkb.jpeg"
+                                         alt="قالب اپلیکیشن باشگاه مشتریان روژا">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب اپلیکیشن باشگاه مشتریان روژا</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: نرم افزار</div>
+                                <div class="info-item num-fa">کد قالب: 218873</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>امکان قرار دادن نمونه کار ها</li>
+
+                                <li>دارای قسمت بلاگ و مطالب</li>
+
+                                <li>دارای بخش فروشگاه و محصول محور</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=102&amp;package_cat=landing">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-اپلیکیشن-باشگاه-مشتریان-روژا">اطلاعات
+                                        قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank"
+                                       href="http://saasland-home-mail.sitechin.com/"><span class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-102').click(function () {
+            $('#modal-demo-102').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-102', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-101">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-101"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/jq36ggZSoSvKeMcd19sibJ1TOYyvR9C39i6F8RA9.jpeg"
+                                         alt="قالب دنیای فناوری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/WD9xi6ZfCgpqDJSYPd5TwA3MvEJP8YYzijQYrFP3.jpeg"
+                                         alt="قالب دنیای فناوری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/qAOUNbH3sZGdyTkjBugJqkDLCLR8giEXXyhfNVhZ.jpeg"
+                                         alt="قالب دنیای فناوری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/jq36ggZSoSvKeMcd19sibJ1TOYyvR9C39i6F8RA9.jpeg"
+                                         alt="قالب دنیای فناوری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/WD9xi6ZfCgpqDJSYPd5TwA3MvEJP8YYzijQYrFP3.jpeg"
+                                         alt="قالب دنیای فناوری">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب دنیای فناوری</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: فناوری</div>
+                                <div class="info-item num-fa">کد قالب: 594682</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>ویرایش پست ها برای نمایش ویدیو های یوتویوب و آپارات</li>
+
+                                <li>بلوک های خبری</li>
+
+                                <li>دارای بیش از ۶ نوع طرح وبلاگ</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=101&amp;package_cat=magazine">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-دنیای-فناوری">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank"
+                                       href="http://topnews-home-featured.sitechin.com/"><span class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-101').click(function () {
+            $('#modal-demo-101').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-101', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-100">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-100"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/snSv6bQcVkNTIm4a0oKkZuxmAbMCpt5t7QFFuGX6.jpeg"
+                                         alt="قالب دانشنامه ورزشی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/5mTYiN6FYnk3CZCc1Otlk0KZag9HO1LTbJAFvpV2.jpeg"
+                                         alt="قالب دانشنامه ورزشی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/cPhY5ilW4zQ6TESd10G4dCl2ov4Kupqy0MpIQ8Iw.jpeg"
+                                         alt="قالب دانشنامه ورزشی">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/QbOB4yOD4qec2y9nuQjoETpEZPJ7gqVvdMDMRLVp.jpeg"
+                                         alt="قالب دانشنامه ورزشی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/snSv6bQcVkNTIm4a0oKkZuxmAbMCpt5t7QFFuGX6.jpeg"
+                                         alt="قالب دانشنامه ورزشی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/5mTYiN6FYnk3CZCc1Otlk0KZag9HO1LTbJAFvpV2.jpeg"
+                                         alt="قالب دانشنامه ورزشی">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب دانشنامه ورزشی</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: ورزشی</div>
+                                <div class="info-item num-fa">کد قالب: 657569</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>ویرایش پست ها برای نمایش ویدیو های یوتویوب و آپارات</li>
+
+                                <li>بلوک های خبری</li>
+
+                                <li>دارای بیش از ۶ نوع طرح وبلاگ</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=100&amp;package_cat=magazine">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-دانشنامه-ورزشی">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank" href="http://topnews-sport.sitechin.com/"><span
+                                            class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-100').click(function () {
+            $('#modal-demo-100').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-100', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-99">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-99"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="4" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/ACPxjXBmziNJ2eJ8QivWV1oNrZJ5lgmQJwu6YpuE.jpeg"
+                                         alt="قالب دانشنامه گردشگری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/xkXypUDhin5pC7joShuFCdUNv3Jx90BIIEWwbYpd.jpeg"
+                                         alt="قالب دانشنامه گردشگری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/WEOTiJ1gqR1FP66g1mEpc8mHA4V3sNfXSITmpDnr.jpeg"
+                                         alt="قالب دانشنامه گردشگری">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/IZlGhb1YTGn4Z6kvxDi5J9KMruNERnMYqle6Cs3j.jpeg"
+                                         alt="قالب دانشنامه گردشگری">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/SGaPjZJ8SglT3aiq7C48fMcWEt2O5dydI34LJoM2.jpeg"
+                                         alt="قالب دانشنامه گردشگری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="4"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/ACPxjXBmziNJ2eJ8QivWV1oNrZJ5lgmQJwu6YpuE.jpeg"
+                                         alt="قالب دانشنامه گردشگری">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/xkXypUDhin5pC7joShuFCdUNv3Jx90BIIEWwbYpd.jpeg"
+                                         alt="قالب دانشنامه گردشگری">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب دانشنامه گردشگری</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: دانشنامه</div>
+                                <div class="info-item num-fa">کد قالب: 539667</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>قابلیت راه اندازی یک انجمن حرفه ای</li>
+
+                                <li>استایل مختلف برای نمایش پروژه ها</li>
+
+                                <li>قابلیت راه اندازی فروشگاه</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=99&amp;package_cat=magazine">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-دانشنامه-گردشگری">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank" href="http://impreza-05.sitechin.com/"><span
+                                            class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-99').click(function () {
+            $('#modal-demo-99').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-99', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-98">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-98"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/MHl9KpR8d6SMMnM1kDRoR9EKetbiSG2spehNpLD6.jpeg"
+                                         alt="قالب خبری ماهور">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/ZZkKcEBPh2SyuaMMY2bahUtdHY6Qhp6Ce5O2h10T.jpeg"
+                                         alt="قالب خبری ماهور">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/QNGt7k1Iop3xkqhICBzye1wGoTjWLSFfDUltMhuI.jpeg"
+                                         alt="قالب خبری ماهور">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/jhyNYh5HXgVjvM9zKkiUoZ96TTZJDyQ5n3DLOpdN.jpeg"
+                                         alt="قالب خبری ماهور">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/MHl9KpR8d6SMMnM1kDRoR9EKetbiSG2spehNpLD6.jpeg"
+                                         alt="قالب خبری ماهور">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/ZZkKcEBPh2SyuaMMY2bahUtdHY6Qhp6Ce5O2h10T.jpeg"
+                                         alt="قالب خبری ماهور">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب خبری ماهور</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: خبری</div>
+                                <div class="info-item num-fa">کد قالب: 524454</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>ویرایش پست ها برای نمایش ویدیو های یوتویوب و آپارات</li>
+
+                                <li>بلوک های خبری</li>
+
+                                <li>دارای بیش از ۶ نوع طرح وبلاگ</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=98&amp;package_cat=magazine">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-خبری-ماهور">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank" href="http://topnews-main.sitechin.com/"><span
+                                            class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-98').click(function () {
+            $('#modal-demo-98').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-98', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-97">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-97"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="4" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/nzaoQdZZwWDfwDwBcpN6IMW3AuOVyt92Qb89q0lC.jpeg"
+                                         alt="قالب خبری فشن">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/8TbCHjHn34TdpUe6MuN8vXS8eWgdJ5AiwS8mOal0.jpeg"
+                                         alt="قالب خبری فشن">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/qVowhvn5kcleED3i3fu0ys8Te1h20dmpEofjBQ7r.jpeg"
+                                         alt="قالب خبری فشن">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/Zuuf5ayqdLU1gsLeDm75Af22ftSmpbJR7bUwiMcs.jpeg"
+                                         alt="قالب خبری فشن">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/zYQN1IVboxuZFoSpJ9xhMo33cTn0ZxQiCnWI04rO.jpeg"
+                                         alt="قالب خبری فشن">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="4"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/nzaoQdZZwWDfwDwBcpN6IMW3AuOVyt92Qb89q0lC.jpeg"
+                                         alt="قالب خبری فشن">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/8TbCHjHn34TdpUe6MuN8vXS8eWgdJ5AiwS8mOal0.jpeg"
+                                         alt="قالب خبری فشن">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب خبری فشن</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: خبری</div>
+                                <div class="info-item num-fa">کد قالب: 934764</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>ویرایش پست ها برای نمایش ویدیو های یوتویوب و آپارات</li>
+
+                                <li>بلوک های خبری</li>
+
+                                <li>دارای بیش از ۶ نوع طرح وبلاگ</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=97&amp;package_cat=magazine">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-خبری-فشن">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank"
+                                       href="http://topnews-fashion.sitechin.com/"><span class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-97').click(function () {
+            $('#modal-demo-97').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-97', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-96">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-96"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="3" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/bMPZbvfUvhYaehrgNeil9scBCansWE6m6EuHIHpO.jpeg"
+                                         alt="قالب خبری تحلیلی سری دوم">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/DPa9auuFkuzx13Hu9IC25GevzaftRLqEIqMhaRqj.jpeg"
+                                         alt="قالب خبری تحلیلی سری دوم">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/0WU7qJLkPcjO9btMiafDhA3YQAxN93KfjoS3U4rx.jpeg"
+                                         alt="قالب خبری تحلیلی سری دوم">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/bNVamVkrAq5OF0hM1myPUnWN7KqlFRX3wbn1sFbx.jpeg"
+                                         alt="قالب خبری تحلیلی سری دوم">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/bMPZbvfUvhYaehrgNeil9scBCansWE6m6EuHIHpO.jpeg"
+                                         alt="قالب خبری تحلیلی سری دوم">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/DPa9auuFkuzx13Hu9IC25GevzaftRLqEIqMhaRqj.jpeg"
+                                         alt="قالب خبری تحلیلی سری دوم">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب خبری تحلیلی سری دوم</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: خبری</div>
+                                <div class="info-item num-fa">کد قالب: 247533</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>قابلیت جابجایی محل قرار گیری ستون های کناری</li>
+
+                                <li>دارای چند ابزارک اختصاصی زیبا و حرفه ای</li>
+
+                                <li>پشتیبانی از منوهای ابشاری در هر سه منو</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=96&amp;package_cat=magazine">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-خبری-تحلیلی-سری-دوم">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank" href="http://forceful-light.sitechin.com/"><span
+                                            class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-96').click(function () {
+            $('#modal-demo-96').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-96', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+<div class="modal-demo" id="modal-demo-95">
+    <div class="demo-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="modal-layout">
+            <div class="row no-gutters">
+                <div class="col-6 carousel-col">
+                    <div class="demo-screen-shot-carousel">
+                        <div id="demo-screen-shot-carousel-95"
+                             class="swiper-container demo-screen-shot-body swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                            <div class="swiper-wrapper"
+                                 style="transition: all 0ms ease 0s; transform: translate3d(500px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                     data-swiper-slide-index="2" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/T0rxcC3OufwI0Ll4vkBWpVWLYtzbYLK4O9YYpeV8.jpeg"
+                                         alt="قالب خبری تحلیلی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/vqYqWBFEK2WjIx9FKNaRhYn4lsPV7pnUcMGLHi5x.jpeg"
+                                         alt="قالب خبری تحلیلی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/ldojYnUD3xFzMxuskJsmHsfFlDu4ZdrvNfdRFazL.jpeg"
+                                         alt="قالب خبری تحلیلی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2"
+                                     style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/T0rxcC3OufwI0Ll4vkBWpVWLYtzbYLK4O9YYpeV8.jpeg"
+                                         alt="قالب خبری تحلیلی">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                     data-swiper-slide-index="0" style="width: 500px;">
+                                    <img src="http://sitechin.com/storage/app/product/gallery/470/vqYqWBFEK2WjIx9FKNaRhYn4lsPV7pnUcMGLHi5x.jpeg"
+                                         alt="قالب خبری تحلیلی">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                        <!-- Add Arrows -->
+                        <div class="demo-carousel-arrow button-next" tabindex="0" role="button" aria-label="Next slide">
+                            <span class="icon-arrow-left-linear"></span></div>
+                        <div class="demo-carousel-arrow button-prev" tabindex="0" role="button"
+                             aria-label="Previous slide">
+                            <span class="icon-arrow-right-linear"></span></div>
+                    </div>
+
+                </div>
+                <div class="col-6 content-col">
+                    <div class="demo-details">
+                        <div class="heading-details">
+                            <div class="demo-title">قالب خبری تحلیلی</div>
+                            <div class="demo-info">
+                                <div class="info-item">دسته بندی: خبری</div>
+                                <div class="info-item num-fa">کد قالب: 547626</div>
+                            </div>
+                        </div>
+
+                        <div class="demo-feature-list">
+                            <div class="feature-heading">ویژگی های اختصاصی قالب</div>
+                            <ul>
+                                <li>قابلیت جابجایی محل قرار گیری ستون های کناری</li>
+
+                                <li>دارای چند ابزارک اختصاصی زیبا و حرفه ای</li>
+
+                                <li>پشتیبانی از منوهای ابشاری در هر سه منو</li>
+
+                                <li>پنل مدیریت قالب بهینه و قدرتمند</li>
+
+                                <li>طراحی با صفحه ساز زنده</li>
+
+                                <li>طراحی بدون نیاز به دانش برنامه نویسی</li>
+
+                                <li>کاملا فارسی و راستچین</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="btn-row">
+                                <div class="btns-block purchase-demo">
+                                    <a href="http://sitechin.com/purchase?demo_select=95&amp;package_cat=magazine">سفارش
+                                        این قالب</a>
+                                </div>
+                                <div class="btns-block more-info-demo">
+                                    <a href="http://sitechin.com/product/قالب-خبری-تحلیلی">اطلاعات قالب</a>
+                                </div>
+                                <div class="btns-block preview-demo">
+                                    <a title="پیشنمایش" target="_blank" href="http://hueman.sitechin.com/"><span
+                                            class="icon-eye"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /* Install Demo Modal */
+        $('#demo-install-95').click(function () {
+            $('#modal-demo-95').addClass('show-modal');
+            $('.layout').addClass('blur');
+            $('html').addClass('overflow-hidden');
+        });
+
+        $('.close-btn').click(function () {
+            $('.modal-demo').removeClass('show-modal');
+            $('.layout').removeClass('blur');
+            $('html').removeClass('overflow-hidden');
+        });
+
+        new Swiper('#demo-screen-shot-carousel-95', {
+            loop: true,
+            navigation: {
+                nextEl: '.demo-carousel-arrow.button-next',
+                prevEl: '.demo-carousel-arrow.button-prev',
+            },
+        });
+    });
+</script>
+
+
+<!-- Search Modal -->
+<div class="modal-sitechin modal-search">
+    <div class="modal-block-box search-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="search-form">
+            <form action="http://sitechin.com/blog">
+                <input class="search-field" type="text"
+                       placeholder="برای جستجو، کلمه کلیدی مورد نظر خود را وارد نمایید..." name="s">
+                <div class="submit-form">
+                    <input type="submit" value="" class="search-submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="http://sitechin.com/resources/assets/js/footer.js"></script>
+<script>
+    var el = document.querySelector('.CustomScrollbar');
+    SimpleScrollbar.initEl(el);
+</script>
+
+</body>
+</html>

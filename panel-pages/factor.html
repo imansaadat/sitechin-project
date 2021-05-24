@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/styles/pages/base/style.min.css">
+    <link rel="stylesheet" href="../assets/styles/pages/purchase-route/factor-style.css">
+    <!-- Scripts Library -->
+    <script src="../assets/js/theme-libs.min.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</head>
+
+<body class="factor">
+<!-- Page Header -->
+
+<header class="page-header-factor">
+    <div class="container">
+        <div class="content-header">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <div class="branding">
+                        <a href="#"><img src="../assets/images/base/sitechin.svg" alt="سایتچین"></a>
+                    </div>
+                </div>
+                <div class="col-8 left">
+                    <div class="pay-situation">
+                        <div class="pay-situation-content">
+                            <div class="text-info">در انتظار پرداخت</div>
+                        </div>
+                        <div class="text-pay-situation">
+                            <span class="text-situation">:وضعیت پرداخت</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- factor page -->
+<main class="main-page factor-page">
+    <!-- bill information -->
+    <section class="bill-information">
+        <div class="container">
+            <div class="block-bill-information">
+                <div class="row">
+                    <div class="col-9">
+                        <div class="bill-name-information">
+                            <span class="bill-buyer bill-text">نام خریدار:</span>
+                            <span class="bill-name">ایمان سعادت</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="bill-date-information">
+                            <span class="bill-date-text bill-text">تاریخ صدور صورتحساب:</span>
+                            <span class="bill-date-issuance num-fa">1385/05/08</span>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="bill-number-information">
+                            <span class="bill-number-text bill-text">شماره صورتحساب:</span>
+                            <span class="bill-number num-fa">16757762</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="bill-respite-information">
+                            <span class="bill-respite bill-text">مهلت پرداخت تا:</span>
+                            <span class="bill-date-respite num-fa">1385/07/18</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bill list -->
+    <section class="bill-list">
+        <div class="container">
+            <div class="checkout-table num-fa">
+                <table>
+                    <thead>
+                    <tr>
+                        <td class="title" colspan="2">عنوان</td>
+                        <td class="price center">مبلغ</td>
+                    </tr>
+                    </thead>
+                    <tbody id="PackageFee">
+                    <tr class="package-price-tr">
+                        <td class="title" colspan="2">پکیج سایت ساز برنزی</td>
+                        <td class="price center">600,000 تومان</td>
+                    </tr>
+                    </tbody>
+                    <tfoot class="checkout-tfoot">
+                    <tr class="discount-tr">
+                        <td class="discount-td center">تخفیف</td>
+                        <td class="discount-td discount-title">BLACK FRIDAY</td>
+                        <td class="discount-td discount-price center">300,000 تومان</td>
+                    </tr>
+                    <tr class="total-tr">
+                        <td class="center">مجموع</td>
+                        <td></td>
+                        <td class="total-price-td center">
+                            <div class="total-price">300,000 تومان</div>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- payment method -->
+    <section class="payment-method">
+        <div class="container">
+            <div class="block-payment">
+                <form action="">
+                    <div class="row align-items-end">
+                        <div class="col-6">
+                            <div class="field-block">
+                                <label for="categories">نحوه پرداخت</label>
+                                <select id="categories" name="product_cat">
+                                    <option value="">کارت های عضو شبکه شتاب - درگاه بانک ملی</option>
+                                    <option value="sitesaz">پاسارگاد</option>
+                                    <option value="shop">پارسیان</option>
+                                    <option value="magazine">ملت</option>
+                                    <option value="landing-page">صادرات</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6 left">
+                            <div class="payment-btn">
+                                <div class="pay-btn">
+                                    <input type="submit" value="پرداخت" class="pay">
+                                </div>
+                                <div class="back-btn">
+                                    <input type="submit" value="بازگشت" class="back">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="inventory-wallet num-fa">
+                    <span>موجودی کیف پول شما:</span>
+                    <span>85.000 تومان،</span>
+                    <span> مبلغ:</span>
+                    <span class="inventory-box"> 85.000 تومان</span>
+                    <span>از آن کسر خواهد شد.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- factor Footer -->
+<footer class="footer-factor">
+    <div class="block-footer">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-6">
+                    <div class="contact-us">شماره تماس : 021877765</div>
+                </div>
+                <div class="col-6 left">
+                  <div class="web-address">www.Sitechin.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Search Modal -->
+<div class="modal-search">
+    <div class="search-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="search-form">
+            <input class="search-field" type="text"
+                   placeholder="برای جستجو، کلمه کلیدی مورد نظر خود را وارد نمایید...">
+            <div class="submit-form">
+                <input type="submit" value="" class="search-submit">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

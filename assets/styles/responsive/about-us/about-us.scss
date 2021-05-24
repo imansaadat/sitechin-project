@@ -1,0 +1,337 @@
+@import "../base";
+
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+  body {
+
+    &.about-us {
+
+      /* posht sahne sitechin */
+      .posht-sahne-sitechin {
+        .section-inner {
+          padding: 25px 0;
+
+          .fade-logo {
+            .faded-image {
+
+            }
+
+            .logo-branding {
+
+            }
+          }
+
+          .content-col {
+            padding: 30px;
+
+            .content-inner {
+              padding: 0 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    &.about-us {
+      /* started sitechin */
+      .started-sitechin {
+        margin-bottom: 120px;
+
+        .started-sitechin-shape {
+          opacity: .6;
+        }
+
+        .section-heading {
+
+        }
+
+        .excerpt {
+          padding: 0 140px;
+        }
+      }
+
+      /* posht sahne sitechin */
+      .posht-sahne-sitechin {
+
+        .section-heading {
+          margin-bottom: 15px;
+        }
+
+        .section-inner {
+
+          .fade-logo {
+            .faded-image {
+              display: none;
+            }
+
+            .logo-branding {
+              position: static;
+            }
+          }
+
+          .content-col {
+            .content-inner {
+
+              .section-heading {
+                font-size: 19px;
+                text-align: center;
+
+                &:after {
+                  display: none;
+
+                }
+              }
+
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+
+      /* why sitechin */
+      .why-sitechin {
+        .why-sitechin-shape {
+          opacity: .6;
+        }
+        .section-inner {
+          .content-col {
+            .excerpt {
+              margin-bottom: 50px;
+
+              br {
+                display: none;
+              }
+            }
+          }
+        }
+
+        .footer-section {
+          .text-content {
+            .excerpt {
+              text-align: center;
+              font-size: 15px !important;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  body {
+    &.about-us {
+      /* posht sahne sitechin */
+      .posht-sahne-sitechin {
+        .section-inner {
+
+            .logo-branding {
+              margin-bottom: 30px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      /* why sitechin */
+      .why-sitechin {
+        .section-inner {
+          .content-col {
+            .excerpt {
+              br {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 767px) {
+  body {
+    &.about-us {
+      /* posht sahne sitechin */
+      .posht-sahne-sitechin {
+        padding: 0 15px;
+
+        .section-inner {
+          padding: 25px;
+
+          .fade-logo {
+            .faded-image {
+
+            }
+
+            .logo-branding {
+              text-align: center;
+              margin-bottom: 30px;
+            }
+          }
+          .content-col{
+            padding: 0;
+          }
+        }
+      }
+
+      /* started sitechin */
+      .started-sitechin {
+        background-color: red;
+        .section-heading {
+          font-size: 21px;
+        }
+
+        .excerpt {
+          padding: 0 50px;
+          text-align: justify;
+
+          br {
+            display: none;
+          }
+        }
+      }
+
+      .why-sitechin {
+        .logo-branding {
+          img {
+            width: 100%;
+          }
+        }
+
+        .content-col {
+          .excerpt {
+            br {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .authors {
+        .section-inner {
+          .content-box {
+            .author-info {
+              ul {
+                li {
+                  min-height: 38px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  body {
+    &.about-us {
+      /* posht sahne sitechin */
+      .posht-sahne-sitechin {
+        padding: 0 15px;
+
+        .section-inner {
+
+          .fade-logo {
+            .faded-image {
+
+            }
+
+            .logo-branding {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      /* started sitechin */
+      .started-sitechin {
+        .section-heading {
+
+        }
+
+        .excerpt {
+
+          br {
+
+          }
+        }
+      }
+
+      .why-sitechin {
+        .logo-branding {
+
+        }
+
+        .content-col {
+          .excerpt {
+            br {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  body {
+    &.about-us {
+
+    }
+    .authors {
+      .section-inner {
+        .content-box {
+          .author-info {
+            ul {
+              li {
+                min-height: 38px;
+              }
+            }
+          }
+          .image-col{
+            position: relative;
+            top: -10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}

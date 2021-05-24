@@ -1,0 +1,296 @@
+@import "../../../styles/_sass/variable";
+@import "../../../styles/_sass/mixins";
+
+/* factor*/
+.factor {
+  /* page header factor */
+  .page-header-factor {
+    padding-top: 56px;
+    margin-bottom: 23px;
+
+    .content-header {
+      .pay-situation {
+        .text-pay-situation {
+          @include inline_middle();
+
+          .text-situation {
+            color: $Text_Color;
+            font-size: 15px;
+            font-weight: 500;
+            margin-left: 15px;
+          }
+        }
+
+        .pay-situation-content {
+          @include inline_middle();
+
+          .text-info {
+            @include inline_middle();
+            color: $Text_Color_Hover !important;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 5px;
+            border: 1px solid $Text_Color_Hover;
+            padding: 8px 41px;
+          }
+        }
+      }
+    }
+  }
+
+  /* factor page */
+  .factor-page {
+
+    /* bill information */
+    .bill-information {
+      margin-bottom: 30px;
+
+      .block-bill-information {
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 34px 34px 34px 139px;
+
+        .bill-text {
+          color: $Text_Color;
+          font-size: 15px;
+          font-weight: 500;
+        }
+
+        .bill-name-information {
+          margin-bottom: 24px;
+        }
+
+        .bill-date-information {
+          margin-bottom: 24px;
+        }
+      }
+    }
+
+    /* bill list */
+    .checkout-table {
+      overflow: hidden;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+      border-radius: 10px;
+      background-color: #ffffff;
+
+      table {
+        width: 100%;
+
+        thead {
+          color: #4d4d4d;
+          font-size: 18px;
+          font-weight: 700;
+          border-bottom: solid 1px #e2e2e2;
+
+          tr {
+            td {
+              border-left: solid 1px #e2e2e2;
+              padding: 25px 20px;
+
+              &:last-child {
+                border-left: none;
+              }
+
+              &.code {
+                width: 11%;
+              }
+
+              &.title {
+                width: 60%;
+                padding: 25px 30px;
+              }
+
+              &.price {
+                min-width: 25%;
+              }
+            }
+          }
+        }
+
+        tbody {
+          color: $Text_Color;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 55px;
+
+          tr {
+            background-color: #ffffff;
+            border-bottom: solid 1px #e2e2e2;
+
+            td {
+              border-left: solid 1px #e2e2e2;
+
+              &:last-child {
+                border-left: none;
+              }
+
+              &.title {
+                padding: 0 30px;
+              }
+            }
+          }
+        }
+
+        tfoot {
+          font-size: 18px;
+          font-weight: 700;
+          color: $Primary_Text_Color;
+          line-height: 45px;
+
+          tr {
+            &.discount-tr {
+              border-top: solid 1px #e2e2e2;
+
+              td {
+                border-left: solid 1px #e2e2e2;
+                padding: 11px 0;
+
+                &:first-child {
+                  padding: 0 6px;
+                }
+
+                &:last-child {
+                  border-left: none;
+                }
+
+                &.discount-title {
+                  padding: 0 54px;
+                }
+
+                &.discount-price {
+                  border-right: solid 1px #e2e2e2;
+                }
+              }
+            }
+
+            &.total-tr {
+              border-top: solid 1px #e2e2e2;
+
+              td {
+                padding: 13px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* Payments Method */
+    .payment-method {
+      .block-payment {
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 16px 35px 49px 35px;
+
+        .field-block {
+          label {
+            @include inline_middle();
+            width: 100%;
+            color: #404040;
+            font-weight: 500;
+          }
+
+          select {
+            width: 100%;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 5px;
+            border: 1px solid #e2e2e2;
+            height: 35px;
+            padding: 0 13px;
+            color: #74758f;
+            font-weight: 500;
+            -webkit-appearance: none;
+            background: $Field_BG_Color url(../../../images/base/down-arrow.svg) no-repeat 17px center;
+            cursor: pointer;
+          }
+        }
+
+        .payment-btn {
+          .back-btn {
+            @include inline_middle();
+            margin-left: 20px;
+
+            .back {
+              border-radius: 5px;
+              border: 1px solid #a2a2a2;
+              background-color: #fff;
+              padding: 8px 22px;
+              color: #a2a2a2;
+              font-size: 16px;
+              font-weight: 500;
+              transition: .3s;
+
+              &:hover {
+                border: 1px solid $Text_Color_Hover;
+                color: $Text_Color_Hover;
+              }
+            }
+          }
+        }
+
+        .pay-btn {
+          @include inline_middle();
+
+          .pay {
+            box-shadow: 0 7px 35px rgba(6, 130, 106, 0.2);
+            border-radius: 5px;
+            background-color: $Base_Color;
+            padding: 9px 70px;
+            border: none;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: 500;
+            transition: .3s;
+
+            &:hover {
+              background-color: #02715b;
+            }
+          }
+        }
+
+        .inventory-wallet {
+          margin-top: 32px;
+
+          span {
+            color: $Primary_Text_Color;
+            font-size: 16px;
+            font-weight: 500;
+          }
+
+          .inventory-box {
+            border-radius: 5px;
+            border: 1px solid #e2e2e2;
+            background-color: $Field_BG_Color;
+            padding: 3px 26px;
+            margin: 0 7px;
+          }
+        }
+      }
+    }
+  }
+  /* footer-factor */
+  .footer-factor {
+    .block-footer {
+      background-color: #f2f2f2;
+      padding: 15px 0;
+      margin-top: -32px;
+
+      .contact-us {
+        color: $Primary_Text_Color;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .web-address {
+        color: $Primary_Text_Color;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}

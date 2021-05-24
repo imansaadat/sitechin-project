@@ -1,0 +1,109 @@
+@import "../base";
+
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+ .container{
+   min-width: 100%;
+   padding: 0 20px;
+ }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  .demo-archive-page {
+    .filter-form {
+      margin: 0 20px 70px;
+      .field-block {
+        margin-bottom: 20px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .demo-archive-page {
+    .demo-list {
+      .demo-items {
+        .item-inner {
+          .demo-info {
+            .call-to-action {
+              .demo-btn {
+                .btn-inner {
+                  font-size: 12px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .filter-block{
+      .filter-form{
+        .field-block{
+          label{
+            margin-bottom: 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .demo-archive-page {
+    .pagination-default {
+      ul {
+        font-size: 10px;
+
+        li {
+          height: 28px;
+          line-height: 28px;
+
+          a {
+            font-size: 10px;
+            padding: 0 5px;
+          }
+
+          &.active-page {
+            padding: 0 10px !important;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}
+

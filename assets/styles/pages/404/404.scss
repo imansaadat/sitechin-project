@@ -1,0 +1,137 @@
+@import "../../../styles/_sass/variable";
+@import "../../../styles/_sass/mixins";
+@import "../../../styles/_sass/animation";
+
+/* 404 Page */
+.main-page-404 {
+  .indent-content {
+    padding: 0 100px;
+    margin-bottom: 60px;
+
+    .content-section {
+      .title-page {
+        color: $Primary_Text_Color;
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+
+      .no-problem {
+        color: $Primary_Text_Color;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+
+      .hint {
+        color: $Primary_Text_Color;
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      .tool-box {
+        .back-to-index {
+          @include inline_middle();
+          border-radius: 5px;
+          background-color: $Text_Color_Hover;
+          padding: 10px 50px;
+          margin-left: 18px;
+          font-size: 14px;
+        }
+
+        .search-btn {
+          @include inline_middle();
+          width: 41px;
+          height: 41px;
+          border-radius: 5px;
+          border: 1px solid $Text_Color_Hover;
+          font-size: 19px;
+          color: $Text_Color_Hover;
+          text-align: center;
+          line-height: 48px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .image-section {
+      .st0 {
+        fill: #f0f0f0
+      }
+
+      .st2 {
+        fill: #ebebeb
+      }
+
+      .st3 {
+        fill: #ff3600
+      }
+
+      .st4 {
+        fill: #263238
+      }
+
+      .st7 {
+        fill: #fff
+      }
+
+      .gear-1 {
+        animation: wave-animation 60s linear infinite;
+        transform-origin: 88px 140px;
+      }
+
+      .gear-2 {
+        animation: wave-animation 15s linear infinite reverse;
+        transform-origin: 296px 123px;
+      }
+
+      .gear-3 {
+        animation: wave-animation 15s linear infinite;
+        transform-origin: 381px 82px;
+      }
+
+      .gear-4 {
+        animation: wave-animation 10s linear infinite;
+        transform-origin: 205.15px 91.8px;
+      }
+
+      .gear-5 {
+        animation: wave-animation 10s linear infinite;
+        transform-origin: 229.3px 158.15px;
+      }
+
+      .gear-6 {
+        animation: wave-animation 10s linear infinite reverse;
+        transform-origin: 240.9px 120.6px;
+      }
+
+      .gear-7 {
+        animation: wave-animation 10s linear infinite reverse;
+        transform-origin: 193.45px 137.95px;
+      }
+
+      .gear-9 {
+        animation: wave-animation 4s linear infinite;
+        transform-origin: 280.44px 60.65px;
+      }
+    }
+  }
+
+  .start-game {
+    color: $Primary_Text_Color;
+    font-size: 18px;
+    font-weight: 400;
+
+    strong {
+      color: $Text_Color_Hover;
+      font-weight: 900;
+    }
+  }
+}
+
+/* Page Container */
+.page-footer-404 {
+  margin-bottom: 50px;
+  color: $Primary_Text_Color;
+  font-size: 12px;
+  font-weight: 500;
+}

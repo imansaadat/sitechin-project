@@ -1,0 +1,1010 @@
+@import "assets/styles/css/bootstrap.min.css";
+@import 'assets/styles/css/normalize.css';
+@import 'assets/styles/_sass/variables';
+@import 'assets/styles/font-icons/styles.css';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		5.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Sep 01, 2017
+*	Website:		             http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*
+**/
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Black.eot');
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/styles/fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/styles/fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/styles/fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Bold.eot');
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/styles/fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/styles/fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/styles/fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Medium.eot');
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/styles/fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/styles/fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/styles/fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Light.eot');
+  src: url('assets/styles/fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/styles/fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/styles/fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/styles/fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('assets/styles/fonts/eot/IRANSansWeb_UltraLight.eot');
+  src: url('assets/styles/fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/styles/fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/styles/fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/styles/fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/styles/fonts/eot/IRANSansWeb.eot');
+  src: url('assets/styles/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/styles/fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/styles/fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/styles/fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+body {
+  text-align: right;
+  direction: rtl;
+  font-family: IRANSans;
+  position: relative;
+  overflow-x: hidden;
+}
+.left {
+  text-align: left;
+  direction: ltr;
+}
+
+/*================header section==================*/
+.header-section{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  .cross{
+    width: 18px;
+    height: 18px;
+    font-size: 35px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 33px;
+    right: 39px;
+    cursor: pointer;
+    display: none;
+    color: #FFFFFF;
+
+  }
+  .container-fluid{
+    padding-right: 110px;
+    padding-left: 110px;
+  }
+   .logo-siteChin{
+    margin-top: 21px;
+     margin-bottom: 115px;
+   }
+  .contact{
+    margin-top: 21px;
+    width: 226px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+
+    .link-contact{
+      text-decoration: none;
+      .code{
+        color: #141414;
+        font-size: 13px;
+        font-weight: $myFont;
+      }
+      .number{
+        padding-top: 5px;
+        font-size: 22px;
+        font-weight: $myFont;
+        color: #141414;
+      }
+      .contact-us{
+        font-weight: $myFont;
+        font-size: 13px;
+        color: #141414;
+      }
+    }
+  }
+  .representation{
+    .sitChin-representation{
+      font-size: 24px;
+      color: #ffffff;
+      font-weight: $myFont2;
+      margin-bottom: 25px;
+    }
+    .text-representation{
+      width: 470px;
+      height: 123px;
+      color: #e3e3e3;
+      line-height: 35px;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      text-align: justify;
+      margin-bottom: 42px;
+      letter-spacing: normal;
+    }
+    .request-representation{
+      width: 226px;
+      height: 40px;
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #131313;
+      letter-spacing: normal;
+      border-radius: 5px;
+      background-color: #ffffff;
+      font-weight: $myFont2;
+      margin-bottom: 48px;
+      z-index: 5;
+    }
+  }
+   .video{
+      position: absolute;
+      height: 100vh;
+      object-fit:cover;
+     z-index: -1;
+    }
+  .pattern-video{
+    width: 100%;
+    height:100%;
+    background: url(assets/images/base/video-pattern.png) no-repeat;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+  }
+  .square-blue{
+    position: absolute;
+    right: 0;
+    z-index: 0;
+  }
+  .square-yellow{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 114px;
+  }
+
+  .mountain-mouse {
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    .play-button{
+      width: 96px;
+      height: 96px;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      line-height: 119px;
+      background-image: url("assets/images/base/intro-arrown-bg.png");
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      margin-bottom: 70px;
+      .play-icon{
+        color: #FFFFFF;
+        width: 41px;
+        height: 46px;
+        font-size: 48px;
+        padding-right:15px;
+      }
+    }
+    .svg-mountain {
+      width: 100%;
+    }
+    .shadow-mountain{
+      position: absolute;
+      bottom: -7px;
+      margin-right: 1px;
+      width: 100%;
+    }
+    .mouse{
+      width: 29px;
+      height: 41px;
+      border: 3px solid #5400ff;
+      border-radius: 25px;
+      margin: auto;
+      position: relative;
+      margin-top: -53px;
+      .scroll{
+        text-align: center;
+         width: 3px;
+        height: 8px;
+        background-color:#5400ff;
+        margin-right: 10px;
+        margin-top: 4px;
+        border-radius:25px ;
+      }
+    }
+  }
+
+}
+/*===========About sitChin===========*/
+.about-siteChine{
+  width: 100%;
+  position: relative;
+  margin: 150px 0px 50px 0px;
+  .circle-shadowRight{
+    //width: 200px;
+    //height: 200px;
+    position: absolute;
+    left: 0;
+  }
+  .container2{
+    width: 1073px;
+    background-color: #FFFFFF;
+    margin:0 auto;
+    padding:36px 82px 60px 82px;
+    box-shadow: 0 66px 100px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+  }
+  .siteChin{
+    text-align: center;
+    .w-siteChin{
+      color: #4c4c4c;
+      font-size: 24px;
+      font-weight: $myFont2;
+      padding-bottom: 20px;
+    }
+    .t-siteChin{
+      line-height: 40px;
+      text-align: justify;
+      font-size: 16px;
+      font-weight: 600;
+      color: #737373;
+      padding-bottom: 20px;
+    }
+  }
+  .list-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    .text-list {
+      font-size: 17px;
+      color: #737373;
+      font-weight: $myFont;
+      margin-left: -10px;
+      display: inline-block;
+      text-align: right;
+      &:before{
+        content: url("assets/images/base/tick.svg");
+        margin-left: 10px;
+      }
+    }
+  }
+  .triangles-l{
+    position: absolute;
+    display: inline-block;
+    top: 53%;
+    left: 10.5%;
+
+  }
+  .triangles-r{
+    position: absolute;
+    display: inline-block;
+    top: 53%;
+    right: 10.5%;
+  }
+}
+/*===========census===========*/
+.census{
+  width: 100%;
+  margin-bottom: 20px;
+  .container3{
+    width: 770px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .customer-census{
+    .h-census{
+      font-size: 24px;
+      color: #4c4c4c;
+      font-weight: $myFont2;
+      padding-bottom: 45px;
+      padding-right:10px;
+      &:before{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display: inline-block;
+        background-color: #06826a;
+        margin-left: 12px;
+        margin-bottom: 5px;
+      }
+      &:after{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display: inline-block;
+        background-color: #06826a;
+        margin-right: 12px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .inner-customers{
+    width: 170px;
+    height: 154px;
+    text-align: center;
+    background: url("assets/images/base/square.png");
+    padding: 40px 22px 0px 22px;
+    .customer-number{
+      font-size: 30px;
+      font-weight: $myFont2;
+    }
+    .t-customer{
+      font-size: 12px;
+      font-weight:$myFont2;
+      padding-top: 20px;
+    }
+  }
+}
+/*=====result-representation(دستاوردهای نمایندگان)========*/
+.result-representation{
+  width: 100%;
+  height: 865px;
+  margin-bottom: 350px;
+  background: url("assets/images/base/Rectangle_8.svg") no-repeat;
+  background-size: cover;
+  position: relative;
+  .container3{
+    width: 770px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .result{
+    display: inline-block;
+    .h-result{
+      font-size: 24px;
+      font-weight: $myFont2;
+      padding-top: 90px;
+      padding-bottom: 45px;
+      &:after{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-right: 12px;
+        margin-bottom: 5px;
+      }
+      &:before{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-left: 12px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .result-section{
+    width: 794px;
+    height: 497px;
+    background: url("assets/images/base/dastavard.svg");
+  }
+  .container4{
+    width: 975px;
+    height: 272px;
+    margin-right: -100px;
+    position: relative;
+    top: 70px;
+    padding:33px;
+    border-radius: 12px;
+    background-color:$lightColor;
+    box-shadow: 0 16px 90px rgba(0, 0, 0, 0.05);
+  }
+  .h-make-money{
+    .t-make-money{
+      font-size: 24px;
+      color: #4c4c4c;
+      font-weight: $myFont2;
+      padding-bottom: 12px;
+      &:after{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-right: 12px;
+        margin-bottom: 3px;
+      }
+      &:before{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-left: 12px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .form{
+    .label{
+      font-size: 12px;
+      color: #404040;
+      font-weight: $myFont2;
+    }
+    .select{
+      width: 167px;
+      color: #74758f;
+      font-size: 12px;
+      font-weight: $myFont2;
+      padding: 5px 10px;
+      outline: none;
+    }
+  }
+  .submit-result{
+    width: 88px;
+    height: 33px;
+    text-align: center;
+    padding: 9px 16px 10px 17px;
+    background-color: #ffb400;
+    color: $lightColor;
+    border: none;
+    margin-top: 31px;
+    font-size: 12px;
+    outline: none;
+  }
+  .income-result{
+    margin-top: 50px;
+    font-size: 24px;
+    color: #5400ff;
+    font-weight: $myFont2;
+    .income1{
+      font-size: 24px;
+      color: #5400ff;
+      font-weight: $myFont2;
+    }
+  }
+}
+/*===============guarantee================*/
+.guarantee{
+  width: 100%;
+  margin-bottom: 130px;
+  .bank-pattern{
+    position: absolute;
+    background: url("assets/images/base/bank_pattern.png");
+    right: 40px;
+    width: 716px;
+    height: 427px;
+    margin-top: -180px;
+    z-index: 1;
+  }
+  .container5{
+    width: 1310px;
+    margin: 0 auto;
+  }
+  .inner-guarantee{
+    .h-guarantee{
+      font-size: 24px;
+      color: #4c4c4c;
+      font-weight: $myFont2;
+      padding-bottom: 15px;
+      &:after{
+        content: '';
+        width: 169px;
+        height: 1px;
+        background-color: #06826a;
+        display: block;
+        margin-top: 15px;
+      }
+    }
+    .t-guarantee{
+      width: 590px;
+      font-size: 16px;
+      text-align: justify;
+      color: #737373;
+      font-weight: 500;
+    }
+  }
+  .pic-guarantee{
+    .pic-par{
+      width: 477px;
+      height: 444px;
+      margin-top: -210px;
+    }
+  }
+}
+
+/*==============settlement================*/
+.settlement{
+  width: 100%;
+  .container5{
+    width: 1310px;
+    margin: 0 auto;
+  }
+  .inner-settlement{
+    .h-settlement{
+      font-size: 24px;
+      color: #4c4c4c;
+      font-weight: $myFont2;
+      padding-bottom: 15px;
+      &:after{
+        content: '';
+        width: 169px;
+        height: 1px;
+        background-color: #06826a;
+        display: block;
+        margin-top: 15px;
+      }
+    }
+    .t-settlement{
+      width: 470px;
+      font-size: 16px;
+      text-align: justify;
+      color: #737373;
+      font-weight: 500;
+    }
+    .text-tick{
+      width: 410px;
+      color: #737373;
+      font-size: 17px;
+      display: block;
+      padding-bottom: 15px;
+      position: relative;
+      right: 5%;
+      .tick{
+        position: absolute;
+        color:#5400ff;
+        right: -6%;
+        top: 4px;
+      }
+
+    }
+  }
+  .pic-settlement{
+    .pic-settlement{
+      width:625px;
+      height:377px;
+      margin-top:-150px;
+    }
+  }
+
+}
+/*=====education and consultation======*/
+.education-consultation{
+  width: 100%;
+  .left-shadow {
+    position: absolute;
+    left: 0;
+    width: 167px;
+    height: 340px;
+    background-image: url(assets/images/base/left-amoozesh.svg);
+    background-repeat: no-repeat;
+    background-position: -97px bottom;
+    margin-top: 0px;
+  }
+  .right-shadow{
+    position: absolute;
+    right: -135px;
+    width: 226px;
+    height: 330px;
+    background-image: url(assets/images/base/right-amoozesh.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 25px;
+  }
+  .container5{
+    width: 1310px;
+    margin: 0 auto;
+  }
+  .inner-education{
+    margin-top: 180px;
+    .h-education{
+      font-size: 24px;
+      color: #4c4c4c;
+      font-weight: $myFont2;
+      padding-bottom: 15px;
+      &:after{
+        content: '';
+        width: 169px;
+        height: 1px;
+        background-color: #06826a;
+        display: block;
+        margin-top: 15px;
+      }
+    }
+    .t-education{
+      width: 470px;
+      font-size: 16px;
+      text-align: justify;
+      color: #737373;
+      font-weight: 500;
+    }
+    .text-tick2{
+      width: 410px;
+      color: #737373;
+      font-size: 17px;
+      display: block;
+      padding-bottom: 15px;
+      position: relative;
+      right: 3%;
+      .tick2{
+        position: absolute;
+        color:#0039ff;
+        right: -6%;
+        top: 4px;
+      }
+
+    }
+  }
+  .pic-education{
+    .pic-education{
+      width:500px;
+      height:442px;
+      margin-top: 50px;
+    }
+  }
+
+}
+/*===condition of representation===*/
+
+.condition-representation{
+  width: 100%;
+  .container5{
+    width: 1310px;
+    margin: 0 auto;
+  }
+  .inner-representation{
+    margin-top: 140px;
+    .h-representation{
+      font-size: 24px;
+      color: #4c4c4c;
+      font-weight: $myFont2;
+      padding-bottom: 15px;
+      &:after{
+        content: '';
+        width: 169px;
+        height: 1px;
+        background-color: #06826a;
+        display: block;
+        margin-top: 15px;
+      }
+    }
+    .t-representation{
+      width: 570px;
+      font-size: 16px;
+      text-align: justify;
+      color: #737373;
+      font-weight: 500;
+    }
+    .text-tick3{
+      width: 410px;
+      color: #737373;
+      font-size: 17px;
+      display: block;
+      padding-bottom: 15px;
+      position: relative;
+      right: 3%;
+      .tick3{
+        position: absolute;
+        color:#5400ff;
+        right: -6%;
+        top: 4px;
+      }
+
+    }
+  }
+  .pic-representation{
+    .pic-representation{
+      width:473px;
+      height:455px;
+      margin-top: 50px
+    }
+  }
+
+}
+
+/*===========How to get representation=========*/
+.get-representation {
+ width: 100%;
+  .inner-get-representation{
+    display: inline-block;
+    .h-get-representation{
+      font-size: 24px;
+      font-weight: $myFont2;
+      padding-top: 20px;
+      margin-bottom: 20px;
+      &:after{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-right: 12px;
+        margin-bottom: 2px;
+      }
+      &:before{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-left: 12px;
+        margin-bottom: 3px;
+      }
+    }
+  }
+  .clear-padding{
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+/*=======form-representation=====*/
+.form-representation{
+  width: 100%;
+  margin-bottom: 80px;
+  .container6{
+    width:971px;
+    height:430px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+     .svg-background{
+      position: absolute;
+       width: 100%;
+     }
+  }
+  .inner-form-representation{
+    display: inline-block;
+    .h-form-representation{
+      font-size: 24px;
+      font-weight: $myFont2;
+      padding-top: 20px;
+      margin-bottom: 20px;
+      &:after{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-right: 12px;
+        margin-bottom: 2px;
+      }
+      &:before{
+        content:'';
+        width: 80px;
+        height: 2px;
+        display:inline-block;
+        background-color: #06826a;
+        margin-left: 12px;
+        margin-bottom: 3px;
+      }
+    }
+  }
+  .h-information{
+    color: #4c4c4c;
+    font-size: 15px;
+    font-weight:$myFont;
+    margin-bottom: 30px;
+  }
+  .form-information{
+    padding-bottom: 30px;
+    label{
+      display: block;
+      font-weight: 500;
+      font-size: 12px;
+      color: #4c4c4c;
+    }
+    .your-name{
+      width: 371px;
+      height: 35px;
+      outline: none;
+      padding: 2px 8px;
+      margin-bottom: 10px;
+    }
+    .your-phone-number{
+      width: 371px;
+      height: 35px;
+      outline: none;
+      padding: 2px 8px;
+      text-align: right;
+    }
+  }
+  .inner-time{
+    .p-time{
+      margin-right: 8px;
+    }
+    .time-number{
+      width: 34px;
+      height: 9px;
+      font-size: 12px;
+      padding: 2px;
+      color:#5400ff;
+      font-weight: 500;
+      border: 2px solid #5400ff;
+      border-radius: 7px;
+      cursor: pointer;
+      &:hover{
+        background-color:#5400ff;
+        color: $lightColor;
+
+      }
+    }
+    .t-time{
+      font-size: 13px;
+      color: #4c4c4c;
+      font-weight: $myFont;
+    }
+  }
+  .send{
+    padding-bottom: 30px;
+    .submit{
+      width: 370px;
+      height: 35px;
+      background-color: #5400ff;
+      border-radius: 5px;
+      border: none;
+      padding: 6px 0px;
+      color: $lightColor;
+    }
+  }
+  .contact-sitchin{
+    font-size: 24px;
+    font-weight: $myFont;
+    color: #5400ff;
+    padding-top: 30px;
+  }
+}
+/*=========explanation===========*/
+.explanation{
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  .container6{
+    width: 971px;
+    height: 296px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #DFDFDF;
+    box-sizing: border-box;
+  }
+  .inner-h-explanation{
+
+    .h-explanation{
+      font-size: 22px;
+      color: #5400ff;
+      font-weight: $myFont2;
+      display: inline-block;
+      padding-top: 50px;
+      padding-right: 70px;
+      padding-bottom: 25px;
+    }
+  }
+  .inner-t-explanation{
+
+    .t-explanation{
+      width: 830px;
+      overflow: hidden;
+      height: 148px;
+      text-align: justify;
+      color: #787878;
+      font-size: 17px;
+      font-weight: $myFont;
+      line-height: 32px;
+      margin: 0 auto;
+    }
+  }
+  .svg-more{
+    margin-top:36px;
+    position: relative;
+    color: #787878;
+    .svg-m{
+      position: absolute;
+      top: -2px;
+      left: 74px;
+    }
+    .iman{
+      text-align: center;
+      //display:inline-block;
+      position: absolute;
+      right:48%;
+      top:-9px;
+      z-index: 2;
+     cursor: pointer;
+    }
+  }
+}
+/*=======footer(copy right)=======*/
+.footer{
+  width: 100%;
+  background-color: #FBFBFB;
+  margin: 0;
+  padding: 26px 36px;
+  .f-copyRight{
+    font-size: 12px;
+    color: #4c4c4c;
+    font-weight: $myFont;
+  }
+  .e-copyRight{
+    font-size: 13px;
+    color: #4c4c4c;
+    font-weight: $myFont;
+  }
+}
+/*=============modal=============*/
+.modal-content{
+  width: 1159px;
+  height: 511px;
+  left: 327px;
+  top: 100px;
+}
+.modal-fade{
+  width: 1000px;
+
+}
+
+/*=============accordion=============*/
+.accordion{
+  top:133px;
+  //overflow: visible;
+  //height: 429px;
+}
+.accordion2{
+  top:128px;
+  //overflow: visible;
+  //height: 429px;
+}
+.over{
+  overflow: visible;
+}
+.height{
+  height: 430px;
+}

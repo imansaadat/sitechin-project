@@ -1,0 +1,106 @@
+/* Rotate */
+@keyframes wave-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Light LED */
+@keyframes light-animation {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  2% {
+    opacity: 0;
+  }
+
+  3% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Mouth Support Animation */
+@keyframes mouth-animation {
+  0% {
+    fill-opacity: 1;
+  }
+
+  5% {
+    fill-opacity: 0;
+  }
+
+  10% {
+    fill-opacity: 1;
+  }
+
+  15% {
+    fill-opacity: 1;
+  }
+
+  18% {
+    fill-opacity: 0;
+  }
+
+  25% {
+    fill-opacity: 1;
+  }
+
+  50% {
+    fill-opacity: 1;
+  }
+
+  55% {
+    fill-opacity: 0;
+  }
+
+  60% {
+    fill-opacity: 1;
+  }
+
+  75% {
+    fill-opacity: 1;
+  }
+
+  78% {
+    fill-opacity: 0;
+  }
+
+  82% {
+    fill-opacity: 1;
+  }
+
+  86% {
+    fill-opacity: 1;
+  }
+
+  92% {
+    fill-opacity: 0;
+  }
+
+  100% {
+    fill-opacity: 1;
+  }
+}
+
+/* Learning BG Animation */
+@keyframes bg_animation {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 1170px 0;
+  }
+}

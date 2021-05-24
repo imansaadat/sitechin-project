@@ -1,0 +1,100 @@
+@import "../base";
+
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  .magazine-builder {
+    .image-col {
+      margin-top: 40px;
+      padding: 0 !important;
+    }
+
+    .section-heading {
+      font-size: 20px;
+    }
+
+    .professional-visitors {
+      .content-box {
+        .excerpt-section {
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .quotation-building-system {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .magazine-builder {
+    .section-heading {
+      font-size: 18px;
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .magazine-builder{
+    .section-heading{
+      &.title-page{
+        margin-bottom: 40px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .magazine-builder {
+    .section-heading{
+      font-size: 16px;
+    }
+    .content-box {
+      .tick-list {
+        ul {
+          li {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+    .rating-system{
+      margin-bottom: 80px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}

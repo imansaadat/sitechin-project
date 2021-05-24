@@ -1,0 +1,143 @@
+@import "../base";
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+ .contact-us-main-page{
+   .page-heading{
+     font-size: 22px !important;
+   }
+   .content-page{
+     .excerpt-content{
+       font-size: 14px !important;
+     }
+     .contact-us-info{
+       .item-col{
+         .title{
+           font-size: 14px !important;
+         }
+       }
+     }
+     .contact-us-form{
+      .message-submit{
+        margin-bottom: 25px;
+      }
+     }
+   }
+ }
+}
+
+@media (max-width: 767px) {
+  .contact-us-main-page{
+    .page-heading{
+       margin-bottom: 30px !important;
+    }
+    .content-page{
+      .excerpt-content{
+        padding: 0 73px !important;
+        text-align: justify !important;
+      }
+      .contact-us-info{
+        .item-col{
+          .title{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .contact-us-main-page{
+    .page-heading{
+
+    }
+    .content-page{
+      padding: 35px 40px !important;
+      .excerpt-content{
+        padding:0 !important;
+      }
+      .contact-us-info{
+        .item-col{
+          &:nth-child(even){
+            padding: 0 !important;
+          }
+          .title{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .contact-us-main-page{
+    .page-heading{
+
+    }
+    .content-page{
+      .excerpt-content{
+        margin: 0 -12px 42px;
+      }
+      .contact-us-info{
+        padding: 0;
+        .item-col{
+          .title{
+          font-size: 12px !important;
+          }
+        }
+        .social-icons{
+          .title{
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          .icons{
+            text-align: center;
+          }
+        }
+      }
+      .contact-us-form{
+        padding: 0 !important;
+        .field-block{
+        }
+        .message-submit{
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}

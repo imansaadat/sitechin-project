@@ -1,0 +1,93 @@
+@import "../base";
+
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  .building-web {
+    .image-col {
+      margin-top: 40px;
+      padding: 0 !important;
+    }
+
+    .section-heading {
+      font-size: 20px;
+    }
+  }
+  .quotation-building-system {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .building-web {
+    .section-heading {
+      font-size: 18px;
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .building-web{
+    .section-heading{
+      &.title-page{
+        margin-bottom: 40px !important;
+      }
+    }
+  }
+  .creating-different-web{
+    margin-bottom: 50px !important;
+  }
+  .professional-afzone{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 414px) {
+  .building-web {
+    .section-heading{
+      font-size: 16px;
+    }
+    .content-box {
+      .tick-list {
+        ul {
+          li {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}

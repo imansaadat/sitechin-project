@@ -1,0 +1,62 @@
+@import "../base";
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  body{
+    &.facilities{
+    /* access section */
+      .access-section{
+        .content-box{
+          .section-heading{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 375px) {
+
+}

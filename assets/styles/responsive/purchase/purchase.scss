@@ -1,0 +1,157 @@
+@import "../base";
+
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  body{
+    &.purchase-route-body {
+      .container {
+        padding: 0 50px !important;
+      }
+      .tab-content{
+        .tab-pane{
+          .package-toggle{
+            .package-selected{
+              .package-inner{
+                .package-details-col{
+                  .col-inner{
+                    .package-feature-column{
+                      .feature{
+                        li{
+                          padding: 0 20px 0 0;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 991, 767
+  * unit => PX
+  */
+@media (max-width: 991px) {
+  body{
+    &.purchase-route-body {
+      .tab-content{
+        .tab-pane{
+          .package-toggle{
+            .package-selected{
+              .package-inner{
+               .package-overview-col{
+                 .col-inner{
+                   .package-price{
+                     .price-value{
+                       font-size: 30px;
+                     }
+                   }
+                 }
+               }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  body{
+    &.purchase-route-body {
+      .tab-content{
+        .tab-pane{
+          .package-toggle{
+            .package-selected{
+              .package-inner{
+                .package-overview-col{
+                  border: none;
+                  .col-inner{
+                    .package-price{
+                      .price-currency{
+                       vertical-align: baseline;
+                      }
+                    }
+                  }
+                }
+                .col-inner{
+                  padding-right: 15px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 414px) {
+  body{
+    &.purchase-route-body {
+     .navs-tabbed{
+       .nav{
+         .col{
+           padding:0 8px;
+         }
+       }
+     }
+      .tab-content{
+        .tab-pane{
+          .choose-pay{
+            .switch-pay{
+              label{
+                &.free-pay{
+                  padding: 0;
+                  margin-top: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  body{
+    &.purchase-route-body {
+      .container{
+        padding: 0 22px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>پنل کاربری</title>
+    <link rel="stylesheet" href="../assets/styles/pages/base/style.min.css">
+    <link rel="stylesheet" href="../assets/styles/pages/panel/panel-page-style.min.css">
+    <!-- Scripts Library -->
+    <script src="../assets/js/theme-libs.min.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</head>
+
+<body class="panel-body">
+<!-- Page Header -->
+<header class="page-header">
+    <div class="container">
+        <div class="row align-items-center no-gutters">
+            <div class="col-10 branding-col">
+                <div class="branding">
+                    <a href="http://dev.sitechin.com"><img src="../assets/images/base/sitechin.svg" alt="سایتچین"></a>
+                </div>
+
+                <nav class="main-navigation">
+                    <ul>
+                        <li class="menu-item-has-children"><a href="#">خدمات</a>
+                            <ul>
+                                <li class="menu-item-has-children"><a href="#">خدمات سایتجین</a>
+                                    <ul>
+                                        <li><a href="#">سایت ساز</a></li>
+                                        <li><a href="#">فروشگاه ساز</a></li>
+                                        <li><a href="#">مجله ساز</a></li>
+                                        <li><a href="#">صفحه فرود ساز</a></li>
+                                        <li><a href="#">رزومه ساز</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">امکانات سایتجین</a>
+                                    <ul>
+                                        <li><a href="#">ویژگی های سایتچین</a></li>
+                                        <li><a href="#">افزونه ها و ماژول ها</a></li>
+                                        <li><a href="#">بروزرسانی ها</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">مشتریان سایتچین</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">آموزش</a>
+                            <ul>
+                                <li><a href="#">مرکز آموزش</a></li>
+                                <li><a href="#">سوالات متداول</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://dev.sitechin.com/package">پکیج ها</a></li>
+                        <li><a href="http://dev.sitechin.com/product/archive">قالب ها</a></li>
+                        <li><a href="#">وبلاگ</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="http://dev.sitechin.com/contact-us">تماس با ما</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-2 tools-col left">
+                <div class="tools-header">
+                    <div class="account-btn">
+                        <a href="http://dev.sitechin.com/login"><span class="icon-contact"></span><span
+                                class="label-btn">ورود/ثبت نام</span></a>
+                    </div>
+                    <div class="search-btn">
+                        <span class="icon-search search-fn"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="panel-page">
+
+    <div class="panel-row">
+        <div class="sidebar-panel">
+            <div class="user-profile-section">
+                <div class="row align-items-center no-gutters">
+                    <div class="col-3 image-col">
+                        <img id="avatar-side" src="../assets/images/base/auth/profile-avatar-small.jpeg" alt="">
+                    </div>
+                    <div class="col-9 user-info">
+                        <div class="user-name">ایمان سعادت</div>
+                        <div class="profile-edit-menu light-mode">
+                            <ul class="center">
+                                <li>
+                                    <div class="default-text">پروفایل کاربری</div>
+                                    <ul>
+                                        <li><a href="#">ویرایش پروفایل</a></li>
+                                        <li><a href="#">تنظیمات امنیتی</a></li>
+                                        <li><a href="#">خروج از حساب</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-navigation">
+                <ul>
+                    <li>
+                        <a href="#"><i class="icon-dashboard"></i>پیشخوان</a>
+                    </li>
+                    <li class="item-has-children">
+                        <div class="first-text"><i class="icon-cubes-stack"></i>سرویس ها</div>
+                        <ul>
+                            <li>
+                                <a href="#">مشاهده لیست سرویس ها</a></li>
+                            <li><a href="#">ثبت سرویس جدید</a></li>
+                        </ul>
+                    </li>
+                    <li class="item-has-children">
+                        <div class="first-text">
+                            <i style="font-size: 12px" class="icon-text-file-square-filled-button"></i>درخواست ها
+                        </div>
+                        <ul>
+                            <li><a href="#">مشاهده لیست درخواست ها</a></li>
+                            <li><a href="#">ثبت درخواست جدید</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-credit-or-debit-card"></i>صورت حساب ها</a></li>
+                    <li><a href="#"><i class="icon-valet"></i>کیف پول</a></li>
+                    <li><a href="#"><i class="icon-discount"></i>بانک هدایا</a></li>
+                    <li>
+                        <a href="#"><i class="icon-alert notification-icon-is-shake"></i>اعلانات<span
+                                class="count num-fa light-mode">3</span></a>
+                    </li>
+                    <li><a href="#"><i class="icon-graduation-cap"></i>مرکز آموزش</a></li>
+                    <li class="item-has-children">
+                        <div class="first-text"><i class="icon-help"></i>پشتیبانی</div>
+                        <ul>
+                            <li>
+                                <a href="#">مشاهده لیست تیکت ها</a>
+                            </li>
+                            <li>
+                                <a href="#">ارسال تیکت جدید</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="content-panel wallet-page">
+            <div class="overview widget-block">
+                <div class="row align-items-center">
+                    <div class="col-5 breadcrumb-panel">
+                        <ul>
+                            <li><a href="#">حساب کاربری</a></li>
+                            <li><span>پیشخوان</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 left">
+                        <div class="valet-block">
+
+                            <a href="#"><span class="icon-plus"></span></a> <a href="#"><span class="value num-fa">موجودی کیف پول: <span
+                                class="price">570,000</span> تومان<i class="icon-valet"></i></span></a>
+
+                        </div>
+
+                        <a href="#" class="notification-block">
+                            <div class="notification-count num-fa">3 پیام جدید</div>
+                            <div class="notification-icon notification-icon-is-shake"><i class="icon-alert"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <! -- billboard list -->
+            <div class="table-block billboard-list">
+                <div class="heading">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <div class="table-title">لیست هدایا و پیشنهاد های روزانه</div>
+                        </div>
+                        <div class="col-4 left">
+                            <div class="show-more">
+                                <a href=""><span>نمایش بیشتر</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                    <tr>
+                        <td style="width: 192px;">عنوان</td>
+                        <td style="padding-right: 30px">توضیحات</td>
+                        <td style="text-align: center;">تاریخ</td>
+                        <td style="text-align: left; width: 110px">عملیات</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="width: 192px;">عید شما مبارک <span class="new">جدید</span></td>
+                        <td style="padding-right: 30px" class="num-fa">شارژ 100000 تومانی کیف پول به مناسبت عید نوروز به حساب کیف چول
+                            شما واریز...
+                        </td>
+                        <td style="text-align: center;" class="num-fa">99/08/09 - 13:45</td>
+                        <td style="text-align: left; width: 110px;">
+                             <span class="show" data-toggle="modal" data-target="#Modal-notification-3"
+                                   style="">نمایش</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 192px;">عید شما مبارک</td>
+                        <td style="padding-right: 30px" class="num-fa">شارژ 100000 تومانی کیف پول به مناسبت عید نوروز به حساب کیف چول
+                            شما واریز...
+                        </td>
+                        <td style="text-align: center;" class="num-fa">99/08/09 - 13:45</td>
+                        <td style="text-align: left; width: 110px;">
+                            <span class="show" data-toggle="modal" data-target="#Modal-notification-3"
+                                  style="">نمایش</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 192px;">عید شما مبارک</td>
+                        <td style="padding-right: 30px" class="num-fa">شارژ 100000 تومانی کیف پول به مناسبت عید نوروز به حساب کیف چول
+                            شما واریز...
+                        </td>
+                        <td style="text-align: center;" class="num-fa">99/08/09 - 13:45</td>
+                        <td style="text-align: left; width: 110px;">
+                            <span class="show" data-toggle="modal" data-target="#Modal-notification-3"
+                                  style="">نمایش</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 192px;">عید شما مبارک</td>
+                        <td style="padding-right: 30px" class="num-fa">شارژ 100000 تومانی کیف پول به مناسبت عید نوروز به حساب کیف چول
+                            شما واریز...
+                        </td>
+                        <td style="text-align: center;" class="num-fa">99/08/09 - 13:45</td>
+                        <td style="text-align: left; width: 110px;">
+                            <span class="show" data-toggle="modal" data-target="#Modal-notification-3"
+                                  style="">نمایش</span>
+                        </td>
+                    </tr>
+                    </tbody>
+                    <tfoot class="num-fa">
+                    <tr>
+                        <td style="vertical-align: middle;" colspan="20">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    نمایش 1 تا 4 از 12 (صفحه 1 از 2)
+                                </div>
+                                <div class="col-8 left">
+                                    <div class="pagination-table">
+                                        <nav class="pagination-default">
+                                            <ul>
+
+                                                <li class="disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                                                    <span aria-hidden="true"
+                                                          class="page-arrow icon-arrow-right-linear"></span>
+                                                </li>
+
+
+                                                <li class="active-page" aria-current="page"><span>1</span></li>
+                                                <li><a href="http://dev.sitechin.com/panel/payments?page=2">2</a></li>
+                                                <li><a href="http://dev.sitechin.com/panel/payments?page=3">3</a></li>
+                                                <li><a href="http://dev.sitechin.com/panel/payments?page=4">4</a></li>
+                                                <li><a href="http://dev.sitechin.com/panel/payments?page=5">5</a></li>
+                                                <li><a href="http://dev.sitechin.com/panel/payments?page=6">6</a></li>
+
+
+                                                <li>
+                                                    <a href="http://dev.sitechin.com/panel/payments?page=2" rel="next"
+                                                       aria-label="Next &raquo;"
+                                                       class="page-arrow icon-arrow-left-linear"></a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="bill-board-banner">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="image-col">
+                            <img src="../assets/images/base/panel/billboard/billboard-baner.png" alt="لیست اعلانات">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Modal-1 -->
+<div class="modal fade" id="Modal-notification-1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="Modal-header-1">نمایش اعلان</h5>
+            </div>
+            <div class="modal-body">
+                <div class="modal-header">
+                    <div class="text-title">عید شما مبارک</div>
+                    <div class="text-date num-fa">99/08/09 - 13:45</div>
+                </div>
+                <div class="text-info-modal">
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                        زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div data-dismiss="modal" aria-label="Close" class="close-btn">بستن</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal-2 -->
+<div class="modal fade" id="Modal-notification-2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-header-2">نمایش اعلان</h5>
+            </div>
+            <div class="modal-body">
+                <div class="modal-header">
+                    <div class="text-title">تولد شما مبارک</div>
+                    <div class="text-date num-fa">99/08/09 - 13:45</div>
+                </div>
+                <div class="text-info-modal">
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                        زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div data-dismiss="modal" aria-label="Close" class="close-btn">بستن</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal-3 -->
+<div class="modal fade" id="Modal-notification-3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-header-3">نمایش اعلان</h5>
+            </div>
+            <div class="modal-body">
+                <div class="modal-header">
+                    <div class="text-title">روز شما مبارک</div>
+                    <div class="text-date num-fa">99/08/09 - 13:45</div>
+                </div>
+                <div class="text-info-modal">
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                        زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div data-dismiss="modal" aria-label="Close" class="close-btn">بستن</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal-3 -->
+<div class="modal fade" id="Modal-notification-4" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-header-4">نمایش اعلان</h5>
+            </div>
+            <div class="modal-body">
+                <div class="modal-header">
+                    <div class="text-title">روز خوبی داشته باشید</div>
+                    <div class="text-date num-fa">99/08/09 - 13:45</div>
+                </div>
+                <div class="text-info-modal">
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                        زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div data-dismiss="modal" aria-label="Close" class="close-btn">بستن</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search Modal -->
+<div class="modal-search">
+    <div class="search-modal-body">
+        <div class="close-btn icon-close"></div>
+        <div class="search-form">
+            <input class="search-field" type="text"
+                   placeholder="برای جستجو، کلمه کلیدی مورد نظر خود را وارد نمایید...">
+            <div class="submit-form">
+                <input type="submit" value="" class="search-submit">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function CopyCode() {
+        /* Get the text field */
+        var copyText = document.getElementById("discount-code");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+    }
+
+    $(document).ready(function () {
+        $('.item-has-children > .first-text').click(function () {
+            $('.show-submenu > ul').hide(200);
+            $('.show-submenu').removeClass('show-submenu');
+
+            $(this).parent().addClass('show-submenu');
+            $(this).next().show(200);
+        });
+    });
+</script>
+</body>
+</html>
